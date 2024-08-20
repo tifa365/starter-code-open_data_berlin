@@ -12,7 +12,7 @@ Feedback is always very welcome – simply open an issue.
 
 👉 Here is the link to the [repository]({{ GITHUB_REPO }}) that contains currently 2 x 338 code files (1 x R, 1 x Python) for all data sets (*«packages»*) that are available on [{{ PROVIDER }}]({{ DATA_PORTAL }}) and that contain one or several CSV distributions. This website is build from this repo.
 
-<sub>Latest update: **2024-08-19 12:53:08**</sub><br>
+<sub>Latest update: **2024-08-20 03:37:48**</sub><br>
 <sub>For all data licenses please refer to each data set's link (provided in list as well as in the notebooks).</sub>
 
 
