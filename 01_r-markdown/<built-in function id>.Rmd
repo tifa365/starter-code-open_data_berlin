@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Übersicht über mögliche Tarifentgelte – Ausgewählte Berufe
+
+Übersicht über mögliche Tarifentgelte für die Berufe Bürokauffrau/-mann mit Berufsabschluss und Kraftfahrer in Berlin und Brandenburg.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindesenarbeitberlin_ab4ac9a51957e726e381a7b3977b4cc3_enausgewaehlteberufe)<br>
+[Direct link by SimpleSearch for dataset](http://www.berlin.de/sen/arbeit/berlinarbeit-ziel-2/tarifregister/tarif-informationen/ausgewaehlte-berufe/)
+
+Auto generated R starter code for data set 3ae4b1fa-e2bd-47e1-81b6-178a572e5ca1.
+
+## Metadata
+
+- **Maintainer** `Anette Leiner`
+- **Maintainer_email** `tarifregister@senias.berlin.de`
+- **Tags** `['berlin', 'branche', 'brandenburg', 'bürokauffrau', 'bürokaufmann', 'kraftfahrer', 'simplesearch', 'tarifauskunft', 'tarifentgelt', 'tarifregister']`
+- **Date_released** `2016-10-20`
+- **Metadata_created** `2016-11-25T11:35:12.570887`
+- **Metadata_modified** `2018-07-19T14:13:43.560057`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 3ae4b1fa-e2bd-47e1-81b6-178a572e5ca1
+
+df <- read.csv('http://www.berlin.de/sen/arbeit/berlinarbeit-ziel-2/tarifregister/tarif-informationen/ausgewaehlte-berufe/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Anette Leiner | tarifregister@senias.berlin.de
