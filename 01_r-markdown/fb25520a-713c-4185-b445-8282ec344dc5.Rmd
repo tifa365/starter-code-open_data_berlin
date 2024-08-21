@@ -1,0 +1,76 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Datenportal Jahresrückblick 2018
+
+Welche Datensätze wurden im Berliner Portal für Offene Daten daten.berlin.de im Jahr 2018 am häufigsten nachgefragt?
+
+Alle Daten und Code gibt es auch [auf Github](https://github.com/berlinonline/berlin-open-data-stats-2018).
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=datenportal-jahresruckblick-2018)<br>
+[Direct link by BerlinOnline Stadtportal GmbH & Co KG for dataset](https://daten.berlin.de/interaktion/artikel/jahresrueckblick-2018)
+
+Auto generated R starter code for data set fb25520a-713c-4185-b445-8282ec344dc5.
+
+## Metadata
+
+- **Maintainer** `Knud Möller`
+- **Maintainer_email** `opendata@berlin.de`
+- **Tags** `['datenportal', 'open data', 'page impressions', 'page view', 'portal', 'statistics', 'usage']`
+- **Date_released** `2019-01-07`
+- **Metadata_created** `2019-01-07T14:00:11.919236`
+- **Metadata_modified** `2024-03-11T09:40:44.902471`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : fb25520a-713c-4185-b445-8282ec344dc5
+
+df <- read.csv('https://raw.githubusercontent.com/berlinonline/berlin-open-data-stats-2018/master/daten_berlin_de.page_stats.datensaetze.summed.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Knud Möller | opendata@berlin.de

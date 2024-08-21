@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Gesundheits- und Sozialstrukturatlas Berlin 2022: Indexwerte auf Ebene der Planungsräume
+
+Der Datensatz enthält die Indexwerte des Gesundheits- und Sozialstrukturatlas Berlin 2022 auf Ebene der Planungsräume. Datengrundlage bilden 20 Indikatoren, die überwiegend auf amtlichen Statistiken beruhen, aus den Dimensionen Erwerbsleben (Arbeitsmarktdaten), soziale Lage (Mikrozensus, Mietspiegel, Einschulungsuntersuchungen, Sozialhilfestatistik) und Gesundheit (Krankenhausdiagnosestatistik, Bevölkerungsstatistik, Einwohnerregister). Für diese drei Dimensionen werden Subindizes berechnet, die schließlich zu einem Gesundheits- und Sozialindex (GESIx) zusammengeführt werden. Eine ausführliche Methodenbeschreibung findet sich im Gesundheits- und Sozialstrukturatlas Berlin 2022: https://www.berlin.de/sen/gesundheit/service/gesundheitsberichterstattung/gesundheit-und-sozialstruktur/
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=gesundheits-und-sozialstrukturatlas-berlin-2022-indexwerte-auf-ebene-der-planungsraeume-1191176)<br>
+[Direct link by Datenrubrik for dataset]()
+
+Auto generated R starter code for data set a8c3eb74-bb32-40c1-9b49-fa860ab010ac.
+
+## Metadata
+
+- **Maintainer** ``
+- **Maintainer_email** `GBE@senWGPG.Berlin.de`
+- **Tags** `['Alleinerziehende', 'Arbeitslosigkeit', 'Armut', 'Behandlungsfälle', 'Einkommen', 'Erwerbsleben', 'Erwerbsstatus', 'Gesundheit', 'Gesundheitsberichterstattung', 'Grundsicherung', 'Index', 'Kiez', 'Lebenserwartung', 'Lebensweltlich orientierte Räume', 'Morbidität', 'Mortalität', 'Planung', 'Regionalvergleich', 'Soziales', 'Sozialraum', 'Sozialstruktur', 'Trend', 'Ungleichheit', 'beruflicher Ausbildungsabschluss', 'soziale Lage']`
+- **Date_released** `2022-03-29`
+- **Metadata_created** `2022-03-29T11:49:14.156186`
+- **Metadata_modified** `2023-12-28T11:32:43.905715`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : a8c3eb74-bb32-40c1-9b49-fa860ab010ac
+
+df <- read.csv('https://www.berlin.de/sen/gesundheit/_assets/daten/gesundheits-und-sozialstrukturatlas/gssa_2022_planungsraeume.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+No contact information provided.

@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: RBS-Verkehrsobjekte (Straßen und Plätze), Dezember 2014
+
+RBS-Verkehrsobjekte (Straßen und Plätze), Dezember 2014
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=rbs-verkehrsobjekte-stra-en-und-pl-tze-dezember-2014)<br>
+[Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de)
+
+Auto generated R starter code for data set 9b71e420-8dc2-48b1-b825-a74dd0145304.
+
+## Metadata
+
+- **Maintainer** `Amt für Statistik Berlin-Brandenburg`
+- **Maintainer_email** `geoservice@statistik-bbb.de`
+- **Tags** `['Plätze', 'RBS', 'RBS-Verkersobjekte', 'Straßen']`
+- **Date_released** `2015-02-06`
+- **Metadata_created** `2016-02-18T20:43:50.852495`
+- **Metadata_modified** `2019-05-13T09:04:23.829952`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 9b71e420-8dc2-48b1-b825-a74dd0145304
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/RBS_OD_VO.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Amt für Statistik Berlin-Brandenburg | geoservice@statistik-bbb.de

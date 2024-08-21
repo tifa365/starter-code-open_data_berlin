@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Verschenken statt Wegwerfen
+
+Recyceln statt wegwerfen, dies gilt auch für die Weiternutzung von gut erhaltenern Gebrauchsgegenständen. Hier werden berlinweit Einrichtungen gelistet, die verschiedene noch gebrauchsfähige Güter entgegennehmen und an Bedürftige weiter vermitteln.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindeumweltthemenabfallverschenkenstattwegwerfen)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/umwelt/themen/abfall/verschenken-statt-wegwerfen/)
+
+Auto generated R starter code for data set d58bab9e-bd41-423e-92bc-2a06e9098666.
+
+## Metadata
+
+- **Maintainer** `Michael Richert`
+- **Maintainer_email** `Michael.Richert@charlottenburg-wilmersdorf.de`
+- **Tags** `['flüchtlingshilfe', 'gebrauchtwaren', 'kleiderkammer', 'möbelbörse', 'recycling', 'simplesearch', 'spenden', 'weiternutzung', 'wertstoffbörse']`
+- **Date_released** `2016-08-08`
+- **Metadata_created** `2016-08-08T09:08:19.854069`
+- **Metadata_modified** `2024-08-08T07:46:50.072747`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : d58bab9e-bd41-423e-92bc-2a06e9098666
+
+df <- read.csv('https://www.berlin.de/umwelt/themen/abfall/verschenken-statt-wegwerfen/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Michael Richert | Michael.Richert@charlottenburg-wilmersdorf.de

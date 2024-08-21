@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Parkscheinautomaten (PSA) Standorte öffentlich anzeigen
+
+Es werden 2 maschinenlesbare Dateien mit den aktuellen Standorten der Parkscheinautomaten (PSA) im Bezirk Pankow bereitgestellt.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=parkscheinautomaten-psa-standorte-oeffentlich-anzeigen-1118550)<br>
+[Direct link by Datenrubrik for dataset]()
+
+Auto generated R starter code for data set aed9be10-6d6b-4211-8d6b-c84a91369533.
+
+## Metadata
+
+- **Maintainer** `Jonas Karehnke`
+- **Maintainer_email** `jonas.karehnke@ba-pankow.berlin.de`
+- **Tags** `['Berlin', 'Handyparken', 'Ordnungsamt', 'Pankow', 'Parkplatz', 'Parkraumbewirtschaftung', 'Parkscheinautomat', 'Parkticket', 'Ticket', 'parken']`
+- **Date_released** `2021-08-23`
+- **Metadata_created** `2021-08-23T08:43:25.840676`
+- **Metadata_modified** `2021-09-27T08:26:53.339090`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : aed9be10-6d6b-4211-8d6b-c84a91369533
+
+df <- read.csv('https://www.berlin.de/ba-pankow/service/daten/2021_09_27_parkscheinautomaten_pankow.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Jonas Karehnke | jonas.karehnke@ba-pankow.berlin.de

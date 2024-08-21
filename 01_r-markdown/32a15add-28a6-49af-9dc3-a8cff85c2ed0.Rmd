@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Senatsvorlagen der Senatsverwaltung für Wirtschaft, Energie und Betriebe
+
+Parlamentsdokumentation
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindesenwirtschaftserviceparlamentsdokumentation)<br>
+[Direct link by SimpleSearch for dataset](http://www.berlin.de/sen/wirtschaft/service/parlamentsdokumentation/)
+
+Auto generated R starter code for data set 32a15add-28a6-49af-9dc3-a8cff85c2ed0.
+
+## Metadata
+
+- **Maintainer** `Ralf Eberhardt`
+- **Maintainer_email** `ralf.eberhardt@senweb.berlin.de`
+- **Tags** `['simplesearch']`
+- **Date_released** `2016-04-27`
+- **Metadata_created** `2016-04-28T09:52:48.528194`
+- **Metadata_modified** `2017-08-21T11:50:35.205781`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 32a15add-28a6-49af-9dc3-a8cff85c2ed0
+
+df <- read.csv('http://www.berlin.de/sen/wirtschaft/service/parlamentsdokumentation/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Ralf Eberhardt | ralf.eberhardt@senweb.berlin.de

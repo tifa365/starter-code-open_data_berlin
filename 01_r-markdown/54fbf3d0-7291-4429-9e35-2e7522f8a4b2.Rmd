@@ -1,0 +1,77 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Breitband-Ausbau der Berliner Schulen
+
+Aktueller Projekt-/Prozessstatus des Glasfaserausbaus an den Berliner Schulen, der durch die Schulträger angemeldet wurde. Detaillierte Informationsbereitstellung aller notwendigen Ausbauschritte, wie beispielsweise: Abgeschlossene Vor-Ort-Begehungen, 
+abgeschlossene Tiefbauarbeiten, verbaute aktive Technik und final nutzbare Glasfaseranschlüsse mit Bandbreite von 1GBit/s.
+
+Alle Daten werden Ihnen von der Senatsverwaltung für Bildung, Jugend und Familie und dem IT-Dienstleistungszentrum Berlin (ITDZ) zur Verfügung gestellt. Die Daten werden monatlich aktualisiert.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=breitband-ausbau-der-berliner-schulen-1430033)<br>
+[Direct link by Datenrubrik for dataset](https://www.berlin.de/sen/bildung/schule/digitale-schule/digitale-infrastruktur/breitband-und-netze/)
+
+Auto generated R starter code for data set 54fbf3d0-7291-4429-9e35-2e7522f8a4b2.
+
+## Metadata
+
+- **Maintainer** `Karen König`
+- **Maintainer_email** `open-data@senbjf.berlin.de`
+- **Tags** `['Bandbreite', 'Breitband', 'Breitbandausbau', 'Digitalisierung', 'Glasfaser', 'Glasfaserausbau', 'NE 3', 'NE3', 'Netzebene 3School', 'Schule', 'bandwidth', 'broadband', 'broadband expansion', 'digitalization', 'fiber optic', 'fiber optic expansion', 'network level 3']`
+- **Date_released** `2024-05-24`
+- **Metadata_created** `2024-03-21T12:52:07.745080`
+- **Metadata_modified** `2024-07-25T12:24:08.557040`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 54fbf3d0-7291-4429-9e35-2e7522f8a4b2
+
+df <- read.csv('https://www.berlin.de/sen/bildung/service/daten/breitbandausbau-schulen.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Karen König | open-data@senbjf.berlin.de

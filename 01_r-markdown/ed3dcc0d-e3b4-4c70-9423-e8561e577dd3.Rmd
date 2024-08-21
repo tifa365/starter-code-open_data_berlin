@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Standorte der Verkehrsinformationstafeln in Berlin
+
+Standorte der Verkehrsinfotafeln im Berliner Straßenverkehr. Auf den über dreißig Verkehrsinformationstafeln können aktuelle und für den jeweiligen Standort relevante Verehrsinformationen auf direktem Wege an Verkehrsteilnehmende kommuniziert werden. Neben Stauwarnungen wird beispielsweise ebenso frühzeitig über Großveranstaltungen oder Baustellen informiert. 
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=verkehrsinformationstafeln)<br>
+[Direct link by Senatsverwaltung für Umwelt, Mobilität, Verbraucher- und Klimaschutz for dataset](https://viz.berlin.de)
+
+Auto generated R starter code for data set ed3dcc0d-e3b4-4c70-9423-e8561e577dd3.
+
+## Metadata
+
+- **Maintainer** `Robert Budras-Krüger`
+- **Maintainer_email** `mdh@senuvk.berlin.de`
+- **Tags** `['Standorte', 'VIZ', 'Verkehrsinformationszentrale', 'Verkehrsinfotafeln']`
+- **Date_released** `2021-05-01`
+- **Metadata_created** `2021-05-12T10:47:27.356384`
+- **Metadata_modified** `2021-07-09T08:14:46.234251`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : ed3dcc0d-e3b4-4c70-9423-e8561e577dd3
+
+df <- read.csv('https://api.viz.berlin.de/daten/downloads/Infotafeln_Standorte_GK4.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Robert Budras-Krüger | mdh@senuvk.berlin.de

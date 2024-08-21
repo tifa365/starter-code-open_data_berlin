@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Übersicht der Beschlüsse des Bezirksamts Steglitz-Zehlendorf
+
+Hier finden Sie Protokolle, Vorlagen und Beschlüsse der Sitzungen des Bezirksamts Steglitz-Zehlendorf
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindebasteglitzzehle_fad5eadf6ae893ce539a41e9a8a585d5_rsichtderbeschluesse)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/ba-steglitz-zehlendorf/politik-und-verwaltung/bezirksamt/protokolle/uebersicht-der-beschluesse/)
+
+Auto generated R starter code for data set feded188-8c01-4bcf-9407-baaaf8f0a5b9.
+
+## Metadata
+
+- **Maintainer** `Elisa Grundmann`
+- **Maintainer_email** `internet@ba-sz.berlin.de`
+- **Tags** `['simplesearch']`
+- **Date_released** `2018-10-26`
+- **Metadata_created** `2023-09-13T15:39:22.876740`
+- **Metadata_modified** `2024-08-07T16:14:45.801973`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : feded188-8c01-4bcf-9407-baaaf8f0a5b9
+
+df <- read.csv('https://www.berlin.de/ba-steglitz-zehlendorf/politik-und-verwaltung/bezirksamt/protokolle/uebersicht-der-beschluesse/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Elisa Grundmann | internet@ba-sz.berlin.de

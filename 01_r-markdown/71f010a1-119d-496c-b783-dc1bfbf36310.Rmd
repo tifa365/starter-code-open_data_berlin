@@ -1,0 +1,79 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Kamerale Monatsdaten Bezirk Marzahn-Hellersdorf 2015
+
+Stand der Haushaltswirtschaft des Bezirkes Marzahn-Hellersdorf zum jeweiligen Monatsende je Kapitel und Titel.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=kamerale-monatsdaten-bezirk-marzahn-hellersdorf-2015)<br>
+[Direct link by Bezirksamt Marzahn-Hellersdorf for dataset](http://www.berlin.de/ba-marzahn-hellersdorf/politik-und-verwaltung/service-und-organisationseinheiten/finanzen/)
+
+Auto generated R starter code for data set 71f010a1-119d-496c-b783-dc1bfbf36310.
+
+## Metadata
+
+- **Maintainer** ``
+- **Maintainer_email** `ilona.lutzke@ba-mh.verwalt-berlin.de`
+- **Tags** `['Kamerale Monatsdaten Bezirk Marzahn-Hellersdorf 2015']`
+- **Date_released** `2015-03-19`
+- **Metadata_created** `2016-02-18T20:21:13.928480`
+- **Metadata_modified** `2016-11-17T11:36:34.237792`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 71f010a1-119d-496c-b783-dc1bfbf36310
+
+df <- read.csv('https://www.berlin.de/ba-marzahn-hellersdorf/politik-und-verwaltung/service-und-organisationseinheiten/finanzen/kamerale-monatsdaten/kopie-von-kamerale_monatsdaten_10_2015.csv')
+
+# Distribution 1
+# Package_id               : 71f010a1-119d-496c-b783-dc1bfbf36310
+
+df <- read.csv('https://www.berlin.de/ba-marzahn-hellersdorf/politik-und-verwaltung/service-und-organisationseinheiten/finanzen/kamerale-monatsdaten/kamerale_monatsdaten_11_2015.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+No contact information provided.

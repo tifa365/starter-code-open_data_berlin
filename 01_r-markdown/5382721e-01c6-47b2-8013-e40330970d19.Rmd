@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Sportangebote in Marzahn-Hellersdorf
+
+Sportstätten im Bezirk Marzahn-Hellersdorf
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindebamarzahnheller_cd9227901bfb29a8fad81648bd4477a7_inmarzahnhellersdorf)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/ba-marzahn-hellersdorf/politik-und-verwaltung/aemter/schul-und-sportamt/sportangebote-in-marzahn-hellersdorf/)
+
+Auto generated R starter code for data set 5382721e-01c6-47b2-8013-e40330970d19.
+
+## Metadata
+
+- **Maintainer** `Berlin.de`
+- **Maintainer_email** `uta.simdorn@ba-mh.berlin.de`
+- **Tags** `['senatskanzlei', 'simplesearch', 'sport', 'sportangebote', 'sportplätze']`
+- **Date_released** `2013-08-27`
+- **Metadata_created** `2023-09-14T16:26:05.297617`
+- **Metadata_modified** `2023-09-14T16:26:05.297624`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 5382721e-01c6-47b2-8013-e40330970d19
+
+df <- read.csv('https://www.berlin.de/ba-marzahn-hellersdorf/politik-und-verwaltung/aemter/schul-und-sportamt/sportangebote-in-marzahn-hellersdorf/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Berlin.de | uta.simdorn@ba-mh.berlin.de

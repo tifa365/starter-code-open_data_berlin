@@ -1,0 +1,80 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Bundestagswahl 2017 in Berlin nach Wahlbezirken (Endgültiges Ergebnis)
+
+Endgültiges Ergebnis der Bundestagswahl; Erst- und Zweitstimmen
+
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=bundestagswahl-2017-in-berlin-nach-wahlbezirken-endgultiges-ergebnis)<br>
+[Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de)
+
+Auto generated R starter code for data set fe331041-f56a-4f88-bb5c-d2b5f1156d1a.
+
+## Metadata
+
+- **Maintainer** ``
+- **Maintainer_email** `wahlstatistik@statistik-bbb.de`
+- **Tags** `['2017', 'Berlin', 'Briefwähler', 'Bundestagswahl', 'Bundestagswahlkreise', 'Stimmbezirke', 'Urnenwähler', 'Wahlberechtigte', 'Wahlbezirke', 'Wähler']`
+- **Date_released** `2020-10-23`
+- **Metadata_created** `2020-10-23T12:10:23.921511`
+- **Metadata_modified** `2020-10-23T13:04:33.461805`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : fe331041-f56a-4f88-bb5c-d2b5f1156d1a
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/Berlin_BT17_W1.csv')
+
+# Distribution 1
+# Package_id               : fe331041-f56a-4f88-bb5c-d2b5f1156d1a
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/Berlin_BT17_W2.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+No contact information provided.

@@ -1,0 +1,97 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Ausleihen in öffentlichen Bibliotheken in Pankow 2022 und 2023
+
+Der Datensatz enthält die Ausleihen der öffentlichen Bibliotheken in Pankow für das Jahr 2022 und 2023. 
+
+Die Daten richten den Blick auf den/die Ausleihenden, also die Bibliothek nutzende Person. 
+
+Jeder Eintrag stellt einen Ausleihvorgang dar – sowohl erfolgreiche als auch fehlgeschlagene Ausleihvorgänge und enthält Daten zur Art und Alter des Mediums sowie Informationen über die ausleihende Person und den Monat, in dem Ausleihe getätigt wurde. 
+
+Die Daten wurden zum Teil durch Klassenbildung und Löschen von Werten anonymisiert, um von Ausleihvorgängen nicht auf einzelne Personen rückschließen zu können.
+
+Die geografische Auflösung sind die Teilverkehrszellen.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=ausleihen-in-offentlichen-bibliotheken-in-pankow-2022)<br>
+[Direct link by Bezirksamt Pankow for dataset](https://www.berlin.de/stadtbibliothek-pankow/)
+
+Auto generated R starter code for data set cb6d8a8b-9455-4ca6-a0b1-08eee7fdc900.
+
+## Metadata
+
+- **Maintainer** `Tobias Weiß`
+- **Maintainer_email** `tobias.weiss@ba-pankow.berlin.de`
+- **Tags** `['Ausleihen', 'Bibliothek', 'Bibliotheken', 'Bildung', 'Buch', 'Bücher', 'Ermäßigung', 'Erwachsene', 'Flüchtlinge', 'Institutionen', 'Jugend', 'Kinder', 'Kulturelle Institutionen', 'Medien', 'Nutzung', 'Schüler', 'Statistik', 'Statistiken', 'Verwaltung']`
+- **Date_released** `2023-02-01`
+- **Metadata_created** `2023-02-01T13:15:15.184893`
+- **Metadata_modified** `2024-01-25T09:16:50.415431`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 4 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : cb6d8a8b-9455-4ca6-a0b1-08eee7fdc900
+
+df <- read.csv('https://stash.cat/s/I0HRHpzjWSB6kv')
+
+# Distribution 1
+# Package_id               : cb6d8a8b-9455-4ca6-a0b1-08eee7fdc900
+
+df <- read.csv('https://stash.cat/s/344nqHPSXPNm8C')
+
+# Distribution 2
+# Package_id               : cb6d8a8b-9455-4ca6-a0b1-08eee7fdc900
+
+df <- read.csv('https://stash.cat/s/1l8iAxanN4bMAI')
+
+# Distribution 3
+# Package_id               : cb6d8a8b-9455-4ca6-a0b1-08eee7fdc900
+
+df <- read.csv('https://stash.cat/s/KfThGelXU2Mw5C')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Tobias Weiß | tobias.weiss@ba-pankow.berlin.de

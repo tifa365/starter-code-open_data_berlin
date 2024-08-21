@@ -1,0 +1,89 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: BSR Entsorgungsbilanz 2007-2012
+
+Daten der BSR-Entsorgungsbilanz 2007 bis 2012.
+Enthalten sind:
+
+* Übersicht der Siedlungsabfälle nach Fraktion
+* Übersicht der Annahmemengen auf BSR Recyclinghöfen nach Abfallart
+* Übersicht des Siedlungsabfallaufkommens
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=bsr-entsorgungsbilanz-2007-2012)<br>
+[Direct link by BSR - Berliner Stadtreinigungsbetriebe for dataset]()
+
+Auto generated R starter code for data set 2623963b-cc40-4450-8005-e3317fba0428.
+
+## Metadata
+
+- **Maintainer** `Jan Holthusen`
+- **Maintainer_email** `Jan.Holthusen@BSR.de`
+- **Tags** `['Entsorgung BSR Recycling']`
+- **Date_released** `2013-09-05`
+- **Metadata_created** `2016-02-18T21:15:33.697859`
+- **Metadata_modified** `2022-03-04T15:27:02.934959`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 3 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 2623963b-cc40-4450-8005-e3317fba0428
+
+df <- read.csv('http://www.bsr.de/opendata/entsorgungsbilanz/fraktionen_aufkommen/fraktionen.csv')
+
+# Distribution 1
+# Package_id               : 2623963b-cc40-4450-8005-e3317fba0428
+
+df <- read.csv('http://www.bsr.de/opendata/entsorgungsbilanz/recyclinghof_annahme/rc_annahmen.csv')
+
+# Distribution 2
+# Package_id               : 2623963b-cc40-4450-8005-e3317fba0428
+
+df <- read.csv('http://www.bsr.de/opendata/entsorgungsbilanz/siedlungsabfallaufkommen/siedlungsabfall.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Jan Holthusen | Jan.Holthusen@BSR.de

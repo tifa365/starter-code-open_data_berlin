@@ -1,0 +1,81 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Zugriffsstatistik daten.berlin.de (historisch)
+
+Zugriffsstatistik des Berliner Datenportals (daten.berlin.de). Enthalten sind die Gesamtzugriffe auf die Domain daten.berlin.de ('impressions' und 'visits') für jeden Monat, sowie die Zugriffszahlen ('impressions' und 'visits') für alle Datensätze für jeden Monat.
+
+**Die in diesem Datensatz enthaltenen Daten sind historische Daten, die durch die Software _BerlinOnline Site Statistics_ (BOSS) erstellt wurden. Die Daten decken den Zeitraum von 2011-09-01 – 2019-12-31 ab. Seit Januar 2020 ist BOSS nicht mehr in Betrieb, und wurde durch Webtrekk Analytics ersetzt. Die aktuellen, durch _Webtrekk Analytics_ erzeugten Daten sind über den Datensatz [Zugriffsstatistik daten.berlin.de](https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde) verfügbar.**
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=zugriffsstatistik-daten-berlin-de-historisch)<br>
+[Direct link by BerlinOnline Stadtportal GmbH & Co KG for dataset](https://berlinonline.github.io/berlin_dataportal_usage/)
+
+Auto generated R starter code for data set baf6dfeb-7cd4-4578-9072-6a1d75ad01f4.
+
+## Metadata
+
+- **Maintainer** `Knud Möller`
+- **Maintainer_email** `opendata@berlin.de`
+- **Tags** `['historisch', 'open data', 'page impressions', 'page views', 'portal', 'statistik', 'usage']`
+- **Date_released** `2020-01-29`
+- **Metadata_created** `2020-01-29T11:50:21.052431`
+- **Metadata_modified** `2020-01-29T13:53:01.034834`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : baf6dfeb-7cd4-4578-9072-6a1d75ad01f4
+
+df <- read.csv('https://berlinonline.github.io/berlin_dataportal_usage/data/historical/daten_berlin_de.domain_stats.csv')
+
+# Distribution 1
+# Package_id               : baf6dfeb-7cd4-4578-9072-6a1d75ad01f4
+
+df <- read.csv('https://berlinonline.github.io/berlin_dataportal_usage/data/historical/daten_berlin_de.page_stats.datensaetze.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Knud Möller | opendata@berlin.de

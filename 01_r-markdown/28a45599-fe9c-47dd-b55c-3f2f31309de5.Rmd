@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Brandenburger Weihnachtsmärkte
+
+
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindesenwirtschaftse_a1231c093a437a2b36e43239076cac66_gerweihnachtsmaerkte)<br>
+[Direct link by SimpleSearch for dataset](http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/weihnachtsmaerkte/brandenburger-weihnachtsmaerkte/)
+
+Auto generated R starter code for data set 28a45599-fe9c-47dd-b55c-3f2f31309de5.
+
+## Metadata
+
+- **Maintainer** `Ralf Eberhardt`
+- **Maintainer_email** `ralf.eberhardt@senwtf.berlin.de`
+- **Tags** `['simplesearch']`
+- **Date_released** `2014-10-22`
+- **Metadata_created** `2016-02-18T20:43:15.587653`
+- **Metadata_modified** `2016-10-07T13:29:59.403037`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 28a45599-fe9c-47dd-b55c-3f2f31309de5
+
+df <- read.csv('http://www.berlin.de/sen/wirtschaft/service/maerkte-feste/weihnachtsmaerkte/brandenburger-weihnachtsmaerkte/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Ralf Eberhardt | ralf.eberhardt@senwtf.berlin.de

@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Energetischer Sanierungsfahrplan
+
+emäß Berliner Energiewendegesetz sind die Bezirke verpflichtet, einen Fahrplan für die Sanierung aller bezirklichen Gebäude ab einer Nettogrundfläche von mehr als 250 m² zu erstellen. Ziel ist die Erreichung eines weitestgehend klimaneutralen Gebäudebestandes bis zum Jahr 2050. Dazu müssen umfängliche energetische Sanierungsmaßnahmen in nahezu allen Gebäuden des Bezirks durchgeführt werden.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=energetischer-sanierungsfahrplan)<br>
+[Direct link by Bezirksamt Tempelhof-Schöneberg for dataset](https://www.berlin.de/ba-tempelhof-schoeneberg/ueber-den-bezirk/zahlen-und-fakten/artikel.784741.php)
+
+Auto generated R starter code for data set 5643a44c-36db-45cc-bec7-4a0cb6e86c27.
+
+## Metadata
+
+- **Maintainer** ``
+- **Maintainer_email** `Gabriel@ba-ts.berlin.de`
+- **Tags** `['Bezirksamt', 'Dienstgebäude', 'Ernergieverbrauch', 'Liegenschaften', 'Tempelhof-Schöneberg']`
+- **Date_released** `2020-06-19`
+- **Metadata_created** `2023-04-13T07:56:11.839401`
+- **Metadata_modified** `2023-04-13T07:57:52.549150`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 5643a44c-36db-45cc-bec7-4a0cb6e86c27
+
+df <- read.csv('https://www.berlin.de/ba-tempelhof-schoeneberg/_assets/politik-und-verwaltung/service-und-organisationseinheiten/sozialraumorientierte-planungskoordination/datenkoordination/03_sfp_bats_veroeffentlichung_20221124.csv?ts=1681291604')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+No contact information provided.

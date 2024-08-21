@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Wahllokale zur Bundestagswahl 2013 in Berlin
+
+Schlüssel Wahlbezirk, Bezirksnummer, Wahlbezirksnummer, Lokal, Bezeichnung, PLZ, Ort, Anschrift, Zugang
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=wahllokale-zur-bundestagswahl-2013-in-berlin)<br>
+[Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de)
+
+Auto generated R starter code for data set aa8ff09b-9da5-41f1-ac16-85ba424f9ead.
+
+## Metadata
+
+- **Maintainer** `Amt für Statistik Berlin-Brandenburg`
+- **Maintainer_email** `info@statistik-bbb.de`
+- **Tags** `['Wahllokale Berlin']`
+- **Date_released** `2013-09-20`
+- **Metadata_created** `2016-02-18T21:29:30.183994`
+- **Metadata_modified** `2019-05-13T09:52:17.350516`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : aa8ff09b-9da5-41f1-ac16-85ba424f9ead
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/BTW2013_BE_Wahllokale_Schluessel.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Amt für Statistik Berlin-Brandenburg | info@statistik-bbb.de

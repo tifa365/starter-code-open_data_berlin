@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Ausländische Einwohnerinnen und Einwohner in Berlin in LOR-Planungsräumen am 31.12.2006
+
+Ausländische Einwohnerinnen und Einwohner in Berlin in LOR-Planungsräumen am 31.12.2006
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=ausl-ndische-einwohnerinnen-und-einwohner-in-berlin-in-lor-planungsr-umen-am-31-12-2006)<br>
+[Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de)
+
+Auto generated R starter code for data set 0572e0c2-94e9-4c4c-ad27-d91de5d2cf71.
+
+## Metadata
+
+- **Maintainer** `Amt für Statistik Berlin-Brandenburg`
+- **Maintainer_email** `einwohner@statistik-bbb.de`
+- **Tags** `['Ausländer', 'Einwohner', 'LOR', 'kleinräumige Einwohnerzahl']`
+- **Date_released** `2013-06-18`
+- **Metadata_created** `2016-02-18T21:28:59.385510`
+- **Metadata_modified** `2019-05-13T09:52:49.786864`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 0572e0c2-94e9-4c4c-ad27-d91de5d2cf71
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/EWR200612A_Matrix.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Amt für Statistik Berlin-Brandenburg | einwohner@statistik-bbb.de

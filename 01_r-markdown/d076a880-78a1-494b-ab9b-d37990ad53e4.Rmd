@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Standorte von Altglascontainern auf öffentlichem Straßenland in Charlottenburg-Wilmersdorf
+
+Das Altglasrecycling liefert einen wichtigen Beitrag zum Umweltschutz. Für den Bezirk Charlottenburg-Wilmersdorf können Sie sich hier über die öffentlichen Standorte in Ihrer Nähe informieren. Wenn Sie auf 'Suchen' klicken, werden Ihnen sofort alle Standorte angezeigt, Sie können die Suche aber auch nach PLZ, Straßenname oder Glassorte verfeinern. 'Zur alternativen Kartendarstellung der Standorte':http://k-nut.github.io/altglas/ Bitte Lärmschutz beachten: Einwurfzeiten 7-13 und 15-20 Uhr; Sonn- und Feiertags kein Einwurf! Ergänzend finden Sie hier 'Informationen zum Thema Recycling':http://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/umwelt-und-naturschutzamt/umweltschutz/abfall/artikel.112782.php und bei Bedarf auch 'Berlinweite Altglascontainerstandorte':http://www.berlin-sammelt.de/glas/standorte-fur-glasiglus/
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindebacharlottenbur_fae3121fb375d4aeb44afa0f6c85f2ab_hutzaltglascontainer)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/umwelt-und-naturschutzamt/umweltschutz/altglascontainer/)
+
+Auto generated R starter code for data set d076a880-78a1-494b-ab9b-d37990ad53e4.
+
+## Metadata
+
+- **Maintainer** `Michael Richert`
+- **Maintainer_email** `Michael.Richert@charlottenburg-wilmersdorf.de`
+- **Tags** `['altglas', 'altglassammlung', 'containerstandorte', 'recycling', 'simplesearch', 'umwelt', 'umweltschutz']`
+- **Date_released** `2014-05-12`
+- **Metadata_created** `2016-02-18T20:52:04.660884`
+- **Metadata_modified** `2021-03-10T17:11:40.768493`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : d076a880-78a1-494b-ab9b-d37990ad53e4
+
+df <- read.csv('https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/umwelt-und-naturschutzamt/umweltschutz/altglascontainer/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Michael Richert | Michael.Richert@charlottenburg-wilmersdorf.de

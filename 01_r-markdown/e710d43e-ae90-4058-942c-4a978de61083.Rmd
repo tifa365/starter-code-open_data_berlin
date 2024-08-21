@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Liste der Diplomaten-Kennzeichen in D
+
+Liste der Kennzeichen an Diplomatenfahrzeugen in Deutschland
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=liste-der-diplomaten-kennzeichen-in-d)<br>
+[Direct link by Senatsverwaltung für Wirtschaft, Energie und Betriebe for dataset]()
+
+Auto generated R starter code for data set e710d43e-ae90-4058-942c-4a978de61083.
+
+## Metadata
+
+- **Maintainer** ``
+- **Maintainer_email** `wolfgang.both@senwtf.berlin.de`
+- **Tags** `['botschaft', 'diplomaten', 'fahrzeug', 'kennzeichen', 'kfz', 'verkehr']`
+- **Date_released** `2012-12-11`
+- **Metadata_created** `2016-02-18T21:12:04.515218`
+- **Metadata_modified** `2024-03-11T13:35:36.466889`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : e710d43e-ae90-4058-942c-4a978de61083
+
+df <- read.csv('https://berlinonline.github.io/berlin-legacy-datasets/data/kfz-kennz-diplomat.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+No contact information provided.

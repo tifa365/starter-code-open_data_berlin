@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Angebote der schulbezogenen Jugendarbeit und Jugendsozialarbeit
+
+Übersicht der Angebote der schulbezogenen Jugendarbeit und Jugendsozialarbeit im Bezirk Lichtenberg
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindebalichtenbergaufeinenblickfreizeitsportjajsa)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/ba-lichtenberg/auf-einen-blick/freizeit/sport/ja-jsa/)
+
+Auto generated R starter code for data set 749f56ff-4c53-4d98-b53c-3af79ce39002.
+
+## Metadata
+
+- **Maintainer** `Kerstin Nieber`
+- **Maintainer_email** `kerstin.nieber@lichtenberg.berlin.de`
+- **Tags** `['angebote', 'integrierte_sekundarschulen', 'projekte', 'schulen_mit_sonderpädagogischem_förderschwerpunkt', 'schulsozialarbeit', 'schulstationen', 'schülerclubs_an_grundschulen', 'simplesearch']`
+- **Date_released** `2015-07-13`
+- **Metadata_created** `2016-02-18T21:25:27.315638`
+- **Metadata_modified** `2024-08-07T15:49:21.680529`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 749f56ff-4c53-4d98-b53c-3af79ce39002
+
+df <- read.csv('https://www.berlin.de/ba-lichtenberg/auf-einen-blick/freizeit/sport/ja-jsa/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Kerstin Nieber | kerstin.nieber@lichtenberg.berlin.de

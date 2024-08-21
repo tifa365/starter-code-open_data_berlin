@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Passendes OSZ finden
+
+Liste der Oberstufenzentren (OSZ) in Berlin mit Bildungsgängen und Berufsfeldern.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindeoszoszkarte)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/osz/osz-karte/)
+
+Auto generated R starter code for data set 76919e2d-eb5a-451f-a96b-d677181d5a77.
+
+## Metadata
+
+- **Maintainer** `Karen König`
+- **Maintainer_email** `open-data@senbjf.berlin.de`
+- **Tags** `['berufsschule', 'oberstufenzentrum', 'osz', 'simplesearch']`
+- **Date_released** `2023-12-04`
+- **Metadata_created** `2024-02-01T14:28:30.223448`
+- **Metadata_modified** `2024-08-07T18:39:47.507822`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 76919e2d-eb5a-451f-a96b-d677181d5a77
+
+df <- read.csv('https://www.berlin.de/osz/osz-karte/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Karen König | open-data@senbjf.berlin.de

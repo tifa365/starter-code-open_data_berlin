@@ -1,0 +1,104 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Liste der verbannten Bücher
+
+Die “Liste der schädlichen und unerwünschten Schrifttums” enthält die von den Nationalsozialisten zwischen 1938 bis 1941 zusammengestellten Autoren und ihre Werke, die im Dritten Reich verboten wurden. Diese Liste wurde nur als vertrauliches Schriftstück an die Reichsschrifttumskammer sowie die Vorstände von Buchhandel und Bibliotheken weitergegeben. Hier wird die NS-Verbotsliste erstmals vollständig online zur Verfügung gestellt.
+
+Die Liste wurde mit einem OCR-Verfahren erstellt. Wir übernehmen keinerlei Garantie für Richtigkeit. Im Rahmen wissenschaftlicher Arbeiten sollte stets eine Überprüfung der von uns eingestellten Daten erfolgen.
+
+Bedeutung der Felder:
+
+title = Buchtitel
+
+ssFlag = Dieser Schrift wird in der schriftlichen Liste ein “+” vorangestellt. Damit wird ein zusätzliches Verbot durch den Reichsführer SS und den Chef der Deutschen Polizei ausgesprochen. Mehr dazu hier: http://www.berlin.de/berlin-im-ueberblick/geschichte/berlin-im-nationalsozialismus/verbannte-buecher/artikel.505057.php
+
+authorFirstname = Vorname des Autors
+
+authorLastname = Nachname des Autors
+
+firstEditionPublisher = Verlag der ersten Auflage
+
+firstEditionPublicationPlace = Erscheinungsort der ersten Auflage
+
+firstEditionPublicationYear = Erscheinungsjahr der ersten Auflage
+
+secondEditionPublisher = Verlag der zweiten Auflage
+
+secondEditionPublicationPlace = Erscheinungsort der zweiten Auflage
+
+secondEditionPublicationYear = Erscheinungsjahr der zweiten Auflage
+
+additionalInfos = weitere Informationen
+
+pageNumberInOCRDocument = Seitennummer in dem Originaldokument welches gescannt wurde.
+
+ocrResult = Textstring des OCR Scans
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindeverbanntebuechersuche)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/verbannte-buecher/suche/)
+
+Auto generated R starter code for data set e7ba92d6-8e12-4e23-826b-21ded37f7199.
+
+## Metadata
+
+- **Maintainer** `Berlin.de`
+- **Maintainer_email** `support@berlin.de`
+- **Tags** `['bücherverbrennung', 'drittes_reich', 'index', 'nationalsozialismus', 'simplesearch', 'verbannte_bücher', 'verbotene_autoren', 'verbotene_bücher']`
+- **Date_released** `2016-05-11`
+- **Metadata_created** `2024-01-17T17:10:59.045936`
+- **Metadata_modified** `2024-08-08T09:37:17.864245`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : e7ba92d6-8e12-4e23-826b-21ded37f7199
+
+df <- read.csv('https://www.berlin.de/verbannte-buecher/suche/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Berlin.de | support@berlin.de

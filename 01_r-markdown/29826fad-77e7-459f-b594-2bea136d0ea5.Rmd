@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Vorhaben- und Projektliste des Bezirksamtes Pankow
+
+Auf dieser Seite werden die aktuellen Vorhaben und Projekte des bzw. im Bezirk Pankow veröffentlicht. Damit soll es allen interessierten Bürger*innen ermöglicht werden, sich über laufende und zukünftige Vorhaben und Projekte im Bezirk Pankow zu informieren.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindebapankowaktuellesvorhabenundprojektliste)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/ba-pankow/aktuelles/vorhaben-und-projektliste/)
+
+Auto generated R starter code for data set 29826fad-77e7-459f-b594-2bea136d0ea5.
+
+## Metadata
+
+- **Maintainer** `Daniel Reimann`
+- **Maintainer_email** `daniel.reimann@ba-pankow.berlin.de`
+- **Tags** `['projekte_vorhaben_liste_pankow', 'simplesearch']`
+- **Date_released** `2019-07-15`
+- **Metadata_created** `2021-01-21T18:27:15.599572`
+- **Metadata_modified** `2024-08-07T16:04:45.108191`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 29826fad-77e7-459f-b594-2bea136d0ea5
+
+df <- read.csv('https://www.berlin.de/ba-pankow/aktuelles/vorhaben-und-projektliste/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Daniel Reimann | daniel.reimann@ba-pankow.berlin.de

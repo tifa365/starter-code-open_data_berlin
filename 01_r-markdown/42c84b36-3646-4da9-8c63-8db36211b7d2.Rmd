@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Summenlast Fahrplanprognosen der SLP-Kunden 2018 (Berlin)
+
+Die Summenlast der Fahrplanprognosen 2015 für Standardlastprofil-Kunden (SLP-Kunden) ist der rechnerisch ermittelte Lastgang, der sich aus den Fahrplänen der Lieferanten für ihre jeweiligen SLP-Kunden ergibt. Den Fahrplänen liegen die Jahresarbeitsprognosen und zugeordnete Lastprofile je SLP-Kunden zugrunde.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=summenlast-fahrplanprognosen-der-slp-kunden-2018-berlin)<br>
+[Direct link by Stromnetz Berlin GmbH for dataset](https://www.stromnetz.berlin/uber-uns/veroffentlichungspflichten/energiewirtschaftsgesetz-enwg)
+
+Auto generated R starter code for data set 42c84b36-3646-4da9-8c63-8db36211b7d2.
+
+## Metadata
+
+- **Maintainer** ``
+- **Maintainer_email** `info@stromnetz-berlin.de`
+- **Tags** `['SLP-Fahrplanprognose', 'SLP-Kunden', 'SLP-Prognose', 'Standardlastprofilkunden', 'StromNZV_Par._17', 'Veröffentlichungspflichten_nach_StromNZV']`
+- **Date_released** `2019-07-15`
+- **Metadata_created** `2019-07-15T12:25:24.915788`
+- **Metadata_modified** `2021-11-25T10:39:10.852582`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 42c84b36-3646-4da9-8c63-8db36211b7d2
+
+df <- read.csv('https://www.stromnetz.berlin/globalassets/dokumente/veroffentlichungspflichten/2018/summenlast-fahrplanprognosen-slp-2018.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+No contact information provided.

@@ -1,0 +1,120 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Luftgütemessdaten
+
+Für Berlin stehen aktuelle und historische Messdaten des Berliner Luftgütemessnetzes insbesondere für grenzwertrelevante Luftschadstoffe gemäß der 39. BImSchV bereit. Zu den verfügbaren Daten gehören Messwerte bezüglich gasförmiger Luftschadstoffe (Stickoxide, Ozon, Kohlenmonoxid, Benzol, Toluol und Schwefeldioxid) und partikulärer Luftschadstoffe (Partikel PM10, Partikel PM2,5). Weiterhin stehen Übersichten zum aktuellen Luftqualitätsindex, den täglichen Messwerten und der jährlichen Anzahl von Grenzwertüberschreitungen zur Verfügung. Zum Download der Daten bestehen verschiedene Möglichkeiten: Eine Rest-API kann genutzt werden, um Daten automatisiert abzufragen. Hierfür steht eine Dokumentation bereit. Ferner können die Daten direkt im CSV-Format über die Website luftdaten.berlin.de heruntergeladen werden. In Abhängigkeit vom Luftschadstoff stehen vier bis acht Varianten aggregierter Daten zur Verfügung. Für die automatisch gemessenen Komponenten sind dies mindestens Stundenwerte, Tageswerte, Monatswerte und Jahreswerte.
+Alle Angaben unter Vorbehalt. Die Messwerte unterliegen weiterhin der Qualitätskontrolle und können - falls erforderlich - korrigiert werden.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=luftdaten-berlin)<br>
+[Direct link by Senatsverwaltung für Umwelt, Mobilität, Verbraucher- und Klimaschutz for dataset](https://luftdaten.berlin.de/)
+
+Auto generated R starter code for data set e883fc65-2567-4127-b0c7-188a4720071c.
+
+## Metadata
+
+- **Maintainer** `Dr. Katja Grunow`
+- **Maintainer_email** `BLUME@SenUMVK.berlin.de`
+- **Tags** `['39. BImSchV', 'Benzol', 'CO', 'Feinstaub', 'Grenzwertüberschreitung', 'Jahreswerte', 'Kohlenmonoxid', 'Luft', 'Luftgüte', 'Luftgütemesscontainer', 'Luftmessstation', 'Luftqualität', 'Luftschadstoffe', 'Monatswerte', 'NO', 'NO2', 'NOx', 'O3', 'Ozon', 'Partikel PM10', 'Partikel PM2.5', 'SO2', 'Schwefeldioxid', 'Stickoxide', 'Stickstoffdioxid', 'Stickstoffmonoxid', 'Stundenwerte', 'Tageswerte', 'Toluol', 'anorganische Gase', 'aromatische Kohlenwasserstoffe']`
+- **Date_released** `2022-05-23`
+- **Metadata_created** `2022-05-09T07:20:10.067529`
+- **Metadata_modified** `2022-06-08T06:32:28.185937`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 10 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : e883fc65-2567-4127-b0c7-188a4720071c
+
+df <- read.csv('https://luftdaten.berlin.de/pollution/pm10?stationgroup=all&period=1h&timespan=lastweek')
+
+# Distribution 1
+# Package_id               : e883fc65-2567-4127-b0c7-188a4720071c
+
+df <- read.csv('https://luftdaten.berlin.de/pollution/pm2?stationgroup=all&period=1h&timespan=lastweek')
+
+# Distribution 2
+# Package_id               : e883fc65-2567-4127-b0c7-188a4720071c
+
+df <- read.csv('https://luftdaten.berlin.de/pollution/no2?stationgroup=all&period=1h&timespan=lastweek')
+
+# Distribution 3
+# Package_id               : e883fc65-2567-4127-b0c7-188a4720071c
+
+df <- read.csv('https://luftdaten.berlin.de/pollution/no?stationgroup=all&period=1h&timespan=lastweek')
+
+# Distribution 4
+# Package_id               : e883fc65-2567-4127-b0c7-188a4720071c
+
+df <- read.csv('https://luftdaten.berlin.de/pollution/nox?stationgroup=all&period=1h&timespan=lastweek')
+
+# Distribution 5
+# Package_id               : e883fc65-2567-4127-b0c7-188a4720071c
+
+df <- read.csv('https://luftdaten.berlin.de/pollution/o3?stationgroup=all&period=1h&timespan=lastweek')
+
+# Distribution 6
+# Package_id               : e883fc65-2567-4127-b0c7-188a4720071c
+
+df <- read.csv('https://luftdaten.berlin.de/pollution/chb?stationgroup=all&period=1h&timespan=lastweek')
+
+# Distribution 7
+# Package_id               : e883fc65-2567-4127-b0c7-188a4720071c
+
+df <- read.csv('https://luftdaten.berlin.de/pollution/cht?stationgroup=all&period=1h&timespan=lastweek')
+
+# Distribution 8
+# Package_id               : e883fc65-2567-4127-b0c7-188a4720071c
+
+df <- read.csv('https://luftdaten.berlin.de/pollution/co?stationgroup=all&period=1h&timespan=lastweek')
+
+# Distribution 9
+# Package_id               : e883fc65-2567-4127-b0c7-188a4720071c
+
+df <- read.csv('https://luftdaten.berlin.de/pollution/so2?period=1m&timespan=all')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Dr. Katja Grunow | BLUME@SenUMVK.berlin.de

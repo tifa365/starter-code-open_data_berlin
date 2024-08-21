@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Bezirksamtsbeschlüsse
+
+Zur Veröffentlichung freigegebene Bezirksamtsbeschlüsse des Bezirksamts Treptow-Köpenick
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindebatreptowkoepenickpolitikundverwaltungbezirksamtbeschluessesimplesearch)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/bezirksamt/beschluesse/simple-search/)
+
+Auto generated R starter code for data set f4b9fe4a-003c-4bcd-848f-d7de5dc34ed6.
+
+## Metadata
+
+- **Maintainer** `Büro des Bezirksbürgermeisters`
+- **Maintainer_email** `sabrina.kirmse@ba-tk.berlin.de`
+- **Tags** `['ba-beschluss', 'ba-beschlüsse', 'simplesearch']`
+- **Date_released** `2014-06-23`
+- **Metadata_created** `2016-02-18T20:50:29.705325`
+- **Metadata_modified** `2024-08-07T16:20:17.654320`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : f4b9fe4a-003c-4bcd-848f-d7de5dc34ed6
+
+df <- read.csv('https://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/bezirksamt/beschluesse/simple-search/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Büro des Bezirksbürgermeisters | sabrina.kirmse@ba-tk.berlin.de

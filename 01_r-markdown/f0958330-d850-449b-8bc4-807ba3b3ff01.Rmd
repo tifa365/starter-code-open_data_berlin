@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Stadtteile in Zahlen - Charlottenburg-Wilmersdorf
+
+Sozio-Demografische Daten und BZRP-Kernindikatoren aus dem Abgestimmten Datenpool des Amts für Statistik Berlin-Brandenburg und von der Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen mit Stand (31.12.)2022, aufgeschlüsselt nach Lebensweltlich Orientierten Räumen (BZR und PLR) im Bezirk Charlottenburg-Wilmersdorf.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindebacharlottenbur_9705bd76c3962690bc4831f08aa967cf_enstadtteileinzahlen)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/service-und-organisationseinheiten/sozialraumorientierte-planungskoordination/region/zahlen-und-fakten/stadtteile-in-zahlen/)
+
+Auto generated R starter code for data set f0958330-d850-449b-8bc4-807ba3b3ff01.
+
+## Metadata
+
+- **Maintainer** `Daniel Reimann`
+- **Maintainer_email** `cw301216@charlottenburg-wilmersdorf.de`
+- **Tags** `['bevölkerung', 'bezirksregionen', 'bezirksregionenprofil', 'charlottenburg-wilmersdorf', 'demographie', 'einwohner', 'einwohnerinnnen', 'kurzprofil', 'lor', 'planungsräume', 'sgb', 'simplesearch', 'soziale_infrastruktur', 'soziale_situation', 'transferleistungen', 'wohndauer']`
+- **Date_released** `2022-01-19`
+- **Metadata_created** `2022-07-29T16:34:39.298180`
+- **Metadata_modified** `2024-08-07T15:43:39.297023`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : f0958330-d850-449b-8bc4-807ba3b3ff01
+
+df <- read.csv('https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/service-und-organisationseinheiten/sozialraumorientierte-planungskoordination/region/zahlen-und-fakten/stadtteile-in-zahlen/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Daniel Reimann | cw301216@charlottenburg-wilmersdorf.de

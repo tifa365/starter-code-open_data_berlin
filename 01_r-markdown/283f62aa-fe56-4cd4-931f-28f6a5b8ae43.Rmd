@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Einwohnerinnen und Einwohner in Berlin in LOR-Planungsräumen am 31.12.2019
+
+Einwohnerinnen und Einwohner in Berlin in LOR-Planungsräumen am 31.12.2019
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=einwohnerinnen-und-einwohner-in-berlin-in-lor-planungsraumen-am-31-12-2019)<br>
+[Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de)
+
+Auto generated R starter code for data set 283f62aa-fe56-4cd4-931f-28f6a5b8ae43.
+
+## Metadata
+
+- **Maintainer** ``
+- **Maintainer_email** `einwohner@statistik-bbb.de`
+- **Tags** `['Einwohner', 'LOR', 'LOR Planungsräume', 'kleinräumige Einwohnerzahl']`
+- **Date_released** `2020-08-21`
+- **Metadata_created** `2020-02-26T13:23:56.193869`
+- **Metadata_modified** `2020-08-21T08:20:56.772224`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 283f62aa-fe56-4cd4-931f-28f6a5b8ae43
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/EWR201912E_Matrix.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+No contact information provided.

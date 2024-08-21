@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Strassenverkehrsunfälle nach Unfallort in Berlin 2020
+
+Strassenverkehrsunfälle nach Unfallort mit Strassenname, GPS-Koordinaten und  LOR-Planungsraum in Berlin 2020; Unfallmonat, -wochentag, - stunde; Unfallart und -kategorie
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=strassenverkehrsunfalle-nach-unfallort-in-berlin-2020)<br>
+[Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de/)
+
+Auto generated R starter code for data set 73662880-7293-447e-8a1a-5eedac6f9856.
+
+## Metadata
+
+- **Maintainer** ``
+- **Maintainer_email** `verkehr@statistik-bbb.de`
+- **Tags** `['2020', 'Berlin', 'Koordinaten', 'LOR Planungsräume', 'Strassenverkehrsunfälle', 'Unfallart', 'Unfallkategorie', 'Unfallmonat', 'Unfallstunde', 'Unfallwochentag', 'Unfälle']`
+- **Date_released** `2021-08-13`
+- **Metadata_created** `2021-08-06T10:42:04.938388`
+- **Metadata_modified** `2021-08-13T07:58:56.837418`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 73662880-7293-447e-8a1a-5eedac6f9856
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/AfSBBB_BE_LOR_Strasse_Strassenverkehrsunfaelle_2020_Datensatz.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+No contact information provided.

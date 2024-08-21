@@ -1,0 +1,76 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Energieverbrauchsübersicht der bezirklichen Abnahmestellen 2010-2019
+
+Der Bezirk Tempelhof-Schöneberg betreibt eine Vielzahl unterschiedlicher Gebäude, die einen nicht unerheblichen Energieverbrauch verursachen. Im Rahmen des Energiemanagements wird dieser Energieverbrauch regelmäßig ausgewertet und gemäß Berliner Energiewendegesetz jährlich veröffentlicht.
+Es wird darauf hingewiesen, dass nicht jedes Objekt eine eigene Energieversorgung und damit einen separaten Wärme- oder Stromverbrauchszähler aufweist. Dies kann dazu führen, dass in der Übersicht für einzelne Liegenschaften kein oder nur ein anteiliger Verbrauch ausgewiesen ist. Andere Liegenschaften können hingegen zusätzlich den (anteiligen) Wärme- oder Stromverbrauch benachbarter Objekte enthalten. Zudem wurde in Einzelfällen eine flächenbezogene Aufteilung des abgerechneten Gesamtverbrauchs vorgenommen. Die spezifischen Randbedingungen einzelner Objekte bleiben hierbei unberücksichtigt. Ebenso unberücksichtigt bleiben in der vorliegenden Darstellung sonstige temporäre Sondereffekte (wie z.B. die eingeschränkte Nutzung einer Liegenschaft im Zuge einer Sanierung).
+Die abgebildeten Verbrauchsdaten entsprechen dem aktuellen Kenntnisstand und können sich in Einzelfällen (z.B. durch nachträgliche Abrechnungskorrekturen der Versorger) noch ändern.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=energieverbrauchsubersicht-der-bezirklichen-abnahmestellen-2010-2019)<br>
+[Direct link by Bezirksamt Tempelhof-Schöneberg for dataset](https://www.berlin.de/ba-tempelhof-schoeneberg/ueber-den-bezirk/zahlen-und-fakten/artikel.784741.php)
+
+Auto generated R starter code for data set a7bf557e-615f-432d-b036-3536a28f643a.
+
+## Metadata
+
+- **Maintainer** `Manuela Gabriel`
+- **Maintainer_email** `Gabriel@ba-ts.berlin.de`
+- **Tags** `[]`
+- **Date_released** `2020-02-01`
+- **Metadata_created** `2022-05-30T10:53:27.226975`
+- **Metadata_modified** `2023-10-16T13:06:56.506893`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : a7bf557e-615f-432d-b036-3536a28f643a
+
+df <- read.csv('https://www.berlin.de/ba-tempelhof-schoeneberg/_assets/ueber-den-bezirk/zahlen-und-fakten/verbrauchsuebersicht_2010-2019_final_20210429.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Manuela Gabriel | Gabriel@ba-ts.berlin.de

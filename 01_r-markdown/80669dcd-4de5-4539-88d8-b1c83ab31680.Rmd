@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Einwohnerinnen und Einwohner mit Migrationshintergrund in Berlin in LOR-Planungsräumen am 31.12.2020
+
+Einwohnerinnen und Einwohner mit Migrationshintergrund nach Altersgruppen in Berlin in LOR-Planungsräumen am 31.12.2020
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=einwohnerinnen-und-einwohner-mit-migrationshintergrund-in-berlin-in-lor-planungsraumen-am-31-12-2020)<br>
+[Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de/)
+
+Auto generated R starter code for data set 80669dcd-4de5-4539-88d8-b1c83ab31680.
+
+## Metadata
+
+- **Maintainer** ``
+- **Maintainer_email** `einwohner@statistik-bbb.de`
+- **Tags** `['Berlin', 'Einwohner', 'LOR', 'Migrationshintergrund', 'Planungsraum', 'kleinräumige Einwohnerzahl']`
+- **Date_released** `2021-09-07`
+- **Metadata_created** `2021-09-07T11:35:21.292192`
+- **Metadata_modified** `2021-09-07T11:39:17.999068`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 80669dcd-4de5-4539-88d8-b1c83ab31680
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/EWRMIGRA202012E_Matrix.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+No contact information provided.

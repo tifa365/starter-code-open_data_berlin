@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: In Berlin und Brandenburg sind folgende tarifliche Abweichungen erlaubt:
+
+Informationen zum Gesetz zur Regelung eines allgemeinen gesetzlichen Mindestlohns von 8,84 €/Stunde und Regelungen zu Ausnahmen. Der Landesmindestlohn steigt ab 1. August 2017 auf 9,00 €/Stunde.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindesenarbeitberlin_bec9845e8172fdf99f09b421b49dec3a_riflicheabweichungen)<br>
+[Direct link by SimpleSearch for dataset](http://www.berlin.de/sen/arbeit/berlinarbeit-ziel-2/tarifregister/tarif-informationen/gesetzlicher-mindestlohn/tarifliche-abweichungen/)
+
+Auto generated R starter code for data set 8a9578ad-8d8b-4b10-981b-4257cb7d4137.
+
+## Metadata
+
+- **Maintainer** `Anette Leiner`
+- **Maintainer_email** `tarifregister@senaif.berlin.de`
+- **Tags** `['simplesearch']`
+- **Date_released** `2016-06-06`
+- **Metadata_created** `2016-09-21T07:32:34.909732`
+- **Metadata_modified** `2017-07-19T17:55:18.784479`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 8a9578ad-8d8b-4b10-981b-4257cb7d4137
+
+df <- read.csv('http://www.berlin.de/sen/arbeit/berlinarbeit-ziel-2/tarifregister/tarif-informationen/gesetzlicher-mindestlohn/tarifliche-abweichungen/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Anette Leiner | tarifregister@senaif.berlin.de

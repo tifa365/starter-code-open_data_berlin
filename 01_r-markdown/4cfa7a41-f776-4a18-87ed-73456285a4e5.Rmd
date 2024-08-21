@@ -1,0 +1,84 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Fahrten und Gefahrensituationen im Radverkehr aus Projekt SimRa seit 2019
+
+Das Datenset enthält die Rohdaten, der in Berlin seit Juni 2019 mit der SimRa-App aufgezeichneten Fahrradfahrten. Konkret enthalten sind:
+1. Aufgezeichnete Fahrten. Enthält: GPS-Trace, Sensortrace der Bewegungssensoren, annotierte Gefahrensituationen (sofern aufgetreten), Metainformationen zur radfahrenden Person.
+2. Daten der oben genannten Fahrten aggregiert nach radfahrender Person (u.a. Anzahl Fahrten, Anzahl Gefahrensituationen) gekoppelt mit Basisdemografieinformationen (u.a. Altersgruppe, Geschlecht).
+
+Weitere Anmerkungen: 
+Die Daten werden alle 1-2 Monate aktualisiert. Daten für weitere Städte (entsprechend der Liste hier: https://simra-project.github.io/dashboard/) sind auf Anfrage abhängig vom Nutzungszweck und Privacyeinschränkungen u.U. verfügbar.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simra)<br>
+[Direct link by SimRa-Projekt for dataset](https://simra-project.github.io/)
+
+Auto generated R starter code for data set 4cfa7a41-f776-4a18-87ed-73456285a4e5.
+
+## Metadata
+
+- **Maintainer** `David Bermbach`
+- **Maintainer_email** `db@3s.tu-berlin.de`
+- **Tags** `['Fahrrad', 'Fahrten', 'Gefahren']`
+- **Date_released** `2019-08-23`
+- **Metadata_created** `2024-07-04T14:50:33.406858`
+- **Metadata_modified** `2024-07-04T14:56:30.811366`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 4cfa7a41-f776-4a18-87ed-73456285a4e5
+
+df <- read.csv('https://github.com/simra-project/dataset/')
+
+# Distribution 1
+# Package_id               : 4cfa7a41-f776-4a18-87ed-73456285a4e5
+
+df <- read.csv('https://simra-project.github.io/dashboard/')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+David Bermbach | db@3s.tu-berlin.de

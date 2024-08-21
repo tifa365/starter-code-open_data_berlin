@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Angebote während der Schwangerschaft bis zur Geburt
+
+“Willkommen im Leben” Angebote für Eltern mit Ihren Kindern in Marzahn-Hellersdorf
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindewillkommenimlebenmhbiszurgeburt)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/willkommen-im-leben-mh/bis-zur-geburt/)
+
+Auto generated R starter code for data set 7bf5ff32-88bb-439e-817f-f5db5ad1c0d5.
+
+## Metadata
+
+- **Maintainer** `Angelika Herda`
+- **Maintainer_email** `angelika.herda@ba-mh.berlin.de`
+- **Tags** `['angebote_für_eltern_mit_ihren_kindern_in_marzahn-hellersdorf', 'simplesearch']`
+- **Date_released** `2017-03-20`
+- **Metadata_created** `2020-05-07T14:06:10.814613`
+- **Metadata_modified** `2023-09-14T16:31:25.930178`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 7bf5ff32-88bb-439e-817f-f5db5ad1c0d5
+
+df <- read.csv('https://www.berlin.de/willkommen-im-leben-mh/bis-zur-geburt/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Angelika Herda | angelika.herda@ba-mh.berlin.de

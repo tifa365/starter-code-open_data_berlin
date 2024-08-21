@@ -1,0 +1,81 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Bundestagswahl 2021 in Berlin nach Wahlbezirken (Endgültiges Ergebnis)
+
+Endgültiges Ergebnis der Bundestagswahl; Erst- und Zweitstimmen
+
+Aktualisierung des Datensatzes: Entfernung personenbezogener Daten der Einzelbewerber.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=bundestagswahl-2021-in-berlin-nach-wahlbezirken-endgultiges-ergebnis)<br>
+[Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de/)
+
+Auto generated R starter code for data set 4db4f3c4-fc4e-4ed6-a71a-32f62ec19589.
+
+## Metadata
+
+- **Maintainer** ``
+- **Maintainer_email** `wahlstatistik@statistik-bbb.de`
+- **Tags** `['2021', 'Berlin', 'Briefwähler', 'Bundestagswahl', 'Bundestagswahlkreise', 'Stimmbezirke', 'Urnenwähler', 'Wahlberechtigte', 'Wahlbezirke', 'Wähler']`
+- **Date_released** `2021-11-24`
+- **Metadata_created** `2021-11-23T12:10:48.468721`
+- **Metadata_modified** `2022-05-04T11:31:36.603448`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 4db4f3c4-fc4e-4ed6-a71a-32f62ec19589
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/Berlin_BT21_W1.csv')
+
+# Distribution 1
+# Package_id               : 4db4f3c4-fc4e-4ed6-a71a-32f62ec19589
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/Berlin_BT21_W2.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+No contact information provided.

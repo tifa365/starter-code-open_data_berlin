@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Einwohnerinnen und Einwohner mit Migrationshintergrund in Berlin in LOR-Planungsräumen nach Herkunftsgebieten am 31.12.2014
+
+Einwohnerinnen und Einwohner mit Migrationshintergrund in Berlin in LOR-Planungsräumen nach Herkunftsgebieten am 31.12.2014
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=einwohnerinnen-und-einwohner-mit-migrationshintergrund-in-berlin-am-31-12-2014)<br>
+[Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de)
+
+Auto generated R starter code for data set 91c55bde-82f2-4d04-8450-880b2c6f93c4.
+
+## Metadata
+
+- **Maintainer** `Amt für Statistik Berlin-Brandenburg`
+- **Maintainer_email** `einwohner@statistik-bbb.de`
+- **Tags** `[]`
+- **Date_released** `2015-03-03`
+- **Metadata_created** `2016-02-18T21:28:17.551666`
+- **Metadata_modified** `2019-05-13T08:45:10.391766`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 91c55bde-82f2-4d04-8450-880b2c6f93c4
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/EWRMIGRA201412H_Matrix.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Amt für Statistik Berlin-Brandenburg | einwohner@statistik-bbb.de

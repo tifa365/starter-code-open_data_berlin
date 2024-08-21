@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Einwohnerinnen und Einwohner in den Ortsteilen Berlins am 31.12.2012
+
+Einwohnerinnen und Einwohner in den Ortsteilen Berlins am 31.12.2012
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=einwohnerinnen-und-einwohner-in-den-ortsteilen-berlins-am-31-12-2012)<br>
+[Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de)
+
+Auto generated R starter code for data set daa1ba6d-9ff7-406c-865b-dae557e0184f.
+
+## Metadata
+
+- **Maintainer** `Amt für Statistik Berlin-Brandenburg`
+- **Maintainer_email** `einwohner@statistik-bbb.de`
+- **Tags** `['Einwohner', 'Ortsteile', 'kleinräumige Einwohnerzahl']`
+- **Date_released** `2013-06-19`
+- **Metadata_created** `2016-02-18T21:08:58.214939`
+- **Metadata_modified** `2019-05-13T09:59:36.845258`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : daa1ba6d-9ff7-406c-865b-dae557e0184f
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/EWR_Ortsteile_2012-12-31.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Amt für Statistik Berlin-Brandenburg | einwohner@statistik-bbb.de

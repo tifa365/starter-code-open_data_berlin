@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Träger von Kindertagesstätten in Marzahn-Hellersdorf
+
+Kindertagesstätten in Marzahn-Hellersdorf sortiert nach Trägern
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindebamarzahnheller_3bd62287cc2c95868bc1e80dc96e8a1d_dbildungtraegersuche)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/ba-marzahn-hellersdorf/politik-und-verwaltung/aemter/jugendamt/betreuung-und-bildung/traegersuche/)
+
+Auto generated R starter code for data set c6b83d8b-7103-49e6-ae10-ad6e861f4e51.
+
+## Metadata
+
+- **Maintainer** `Angelika Herda`
+- **Maintainer_email** `angelika.herda@ba-mh.berlin.de`
+- **Tags** `['kindertagesstätten_in_marzahn-hellersdorf', 'nach_trägern_sortiert', 'simplesearch']`
+- **Date_released** `2014-12-29`
+- **Metadata_created** `2016-02-18T21:32:57.857784`
+- **Metadata_modified** `2024-08-07T15:56:10.075168`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : c6b83d8b-7103-49e6-ae10-ad6e861f4e51
+
+df <- read.csv('https://www.berlin.de/ba-marzahn-hellersdorf/politik-und-verwaltung/aemter/jugendamt/betreuung-und-bildung/traegersuche/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Angelika Herda | angelika.herda@ba-mh.berlin.de

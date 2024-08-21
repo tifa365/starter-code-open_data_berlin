@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Europawahl 2019 in Berlin nach Wahlbezirken (Endgültiges Ergebnis)
+
+Europawahl 2019 in Berlin nach Wahlbezirken (Endgültiges Ergebnis)
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=europawahl-2019-in-berlin-nach-wahlbezirken-endgultiges-ergebnis)<br>
+[Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de)
+
+Auto generated R starter code for data set 65bc133e-14f0-4a02-924e-8b491591f6db.
+
+## Metadata
+
+- **Maintainer** ``
+- **Maintainer_email** `wahlstatistik@statistik-bbb.de`
+- **Tags** `['2019', 'Berlin', 'Briefwähler', 'Europawahl', 'Stimmbezirke', 'Urnenwähler', 'Wahlbezirke', 'Wähler']`
+- **Date_released** `2019-09-12`
+- **Metadata_created** `2019-09-12T07:56:41.887611`
+- **Metadata_modified** `2020-10-12T14:25:21.823681`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 65bc133e-14f0-4a02-924e-8b491591f6db
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/EU2019_BE_EndgErg_Wahlbezirke.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+No contact information provided.

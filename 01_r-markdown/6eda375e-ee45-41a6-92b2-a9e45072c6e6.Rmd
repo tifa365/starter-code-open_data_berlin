@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Einwohnerinnen und Einwohner nach Wohnlagen in den LOR-Planungsräumen am 31.12.2011
+
+Einwohnerinnen und Einwohner nach Wohnlagen in den LOR-Planungsräumen am 31.12.2011
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=einwohnerinnen-und-einwohner-nach-wohnlagen-in-den-lor-planungsr-umen-am-31-12-2011)<br>
+[Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de)
+
+Auto generated R starter code for data set 6eda375e-ee45-41a6-92b2-a9e45072c6e6.
+
+## Metadata
+
+- **Maintainer** `Amt für Statistik Berlin-Brandenburg`
+- **Maintainer_email** `einwohner@statistik-bbb.de`
+- **Tags** `['Einwohner', 'LOR', 'Lebensweltlich orientierte Räume', 'Mietspiegel', 'Wohnlage', 'kleinräumig']`
+- **Date_released** `2013-06-19`
+- **Metadata_created** `2016-02-18T20:34:34.511735`
+- **Metadata_modified** `2019-05-13T10:21:06.000403`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 6eda375e-ee45-41a6-92b2-a9e45072c6e6
+
+df <- read.csv('https://www.statistik-berlin-brandenburg.de/opendata/WHNLAGE2011_Matrix.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Amt für Statistik Berlin-Brandenburg | einwohner@statistik-bbb.de

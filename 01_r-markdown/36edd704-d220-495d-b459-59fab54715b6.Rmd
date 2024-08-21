@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Branchenübersicht
+
+Die Übersicht enthält wesentliche im Gemeinsamen Tarifregister Berlin und Brandenburg vorliegende und in der Region geltende tarifvertraglich geregelte Ausbildungsvergütungen.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindesenarbeitberlin_6e0d5bb6e966f32a7dcb2c642bb17533_enbranchenuebersicht)<br>
+[Direct link by SimpleSearch for dataset](http://www.berlin.de/sen/arbeit/berlinarbeit-ziel-2/tarifregister/tarif-informationen/ausbildungsverguetungen/branchenuebersicht/)
+
+Auto generated R starter code for data set 36edd704-d220-495d-b459-59fab54715b6.
+
+## Metadata
+
+- **Maintainer** `Anette Leiner`
+- **Maintainer_email** `tarifregister@senias.berlin.de`
+- **Tags** `['simplesearch', 'tarifregister_tarifauskunft_tarifvertrag_ausbildungsvergütungen_branchen_berlin_brandenburg']`
+- **Date_released** `2016-05-24`
+- **Metadata_created** `2016-09-20T20:18:41.293734`
+- **Metadata_modified** `2018-07-13T12:30:26.823221`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 36edd704-d220-495d-b459-59fab54715b6
+
+df <- read.csv('http://www.berlin.de/sen/arbeit/berlinarbeit-ziel-2/tarifregister/tarif-informationen/ausbildungsverguetungen/branchenuebersicht/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Anette Leiner | tarifregister@senias.berlin.de

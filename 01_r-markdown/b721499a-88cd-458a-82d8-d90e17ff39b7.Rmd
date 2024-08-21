@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Durch die Gemeinschaftsaufgabe 'Verbesserung der regionalen Wirtschaftsstruktur' (GRW) geförderte Projekte ab 2008
+
+Durch die Gemeinschaftsaufgabe “Verbesserung der regionalen Wirtschaftsstruktur” (GRW) geförderte Projekte ab 2008
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindesenwirtschaftgruendenundfoerderninvestitionsfoerderungwachsengrwprojekte)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/sen/wirtschaft/gruenden-und-foerdern/investitionsfoerderung/wachsen/grw-projekte/)
+
+Auto generated R starter code for data set b721499a-88cd-458a-82d8-d90e17ff39b7.
+
+## Metadata
+
+- **Maintainer** `Maria Szeponik`
+- **Maintainer_email** `maria.szeponik@senweb.berlin.de`
+- **Tags** `['förderung', 'grw', 'infrastrukturförderung', 'simplesearch', 'unternehmensförderung']`
+- **Date_released** `2019-06-18`
+- **Metadata_created** `2019-09-14T14:39:45.671996`
+- **Metadata_modified** `2024-08-07T20:21:22.585603`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : b721499a-88cd-458a-82d8-d90e17ff39b7
+
+df <- read.csv('https://www.berlin.de/sen/wirtschaft/gruenden-und-foerdern/investitionsfoerderung/wachsen/grw-projekte/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Maria Szeponik | maria.szeponik@senweb.berlin.de

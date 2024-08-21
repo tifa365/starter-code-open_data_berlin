@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: COVID-19 in Berlin, Fallzahlen und Indikatoren - Gesamtübersicht
+
+Tabelleninhalt: COVID-19 Erkrankungen, Fallzahlen und Indikatoren des Lageberichts des LAGeSo Berlin seit dem 16.03.2020
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindelagesogesundhei_87baddcdc10c2969c319aefb3a917ea3_orengesamtuebersicht)<br>
+[Direct link by SimpleSearch for dataset](https://www.berlin.de/lageso/gesundheit/infektionskrankheiten/corona/tabelle-indikatoren-gesamtuebersicht/)
+
+Auto generated R starter code for data set 5b4f1016-4357-400e-af47-ce62d9f8f250.
+
+## Metadata
+
+- **Maintainer** `Fachgruppe Infektionsschutz`
+- **Maintainer_email** `infektionsschutz@lageso.berlin.de`
+- **Tags** `['covid-19_erkrankungen', 'fallzahlen', 'indikatoren', 'lageso', 'simplesearch']`
+- **Date_released** `2020-04-05`
+- **Metadata_created** `2021-05-31T10:26:30.566265`
+- **Metadata_modified** `2024-08-20T08:49:11.417996`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 5b4f1016-4357-400e-af47-ce62d9f8f250
+
+df <- read.csv('https://www.berlin.de/lageso/gesundheit/infektionskrankheiten/corona/tabelle-indikatoren-gesamtuebersicht/index.php/index/all.csv?q=')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Fachgruppe Infektionsschutz | infektionsschutz@lageso.berlin.de

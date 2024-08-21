@@ -1,0 +1,74 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Doppelhaushalt 2018/2019
+
+Der Haushaltsplan dient der Feststellung und Deckung des Finanzbedarfs, der zur Erfüllung der Aufgaben Berlins im jeweiligen Zeitraum notwendig ist. Er bildet die Zweistufigkeit der Berliner Verwaltung ab. Der Haushalt 2018/2019 des Landes Berlin umfasst ein Haushaltsvolumen von rund 28,603 Milliarden EUR (2018) bzw. 29,356 Milliarden EUR (2019). 
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=doppelhaushalt-2018-2019)<br>
+[Direct link by Senatsverwaltung für Finanzen for dataset](https://www.berlin.de/sen/finanzen/haushalt/haushaltsplan/artikel.5697.php)
+
+Auto generated R starter code for data set 899ded8d-5f8f-4e74-9d17-648d25c7778f.
+
+## Metadata
+
+- **Maintainer** ``
+- **Maintainer_email** `onlineredaktion@senfin.berlin.de`
+- **Tags** `[]`
+- **Date_released** `2018-01-26`
+- **Metadata_created** `2018-01-26T07:42:08.512474`
+- **Metadata_modified** `2018-01-26T07:44:19.015694`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 899ded8d-5f8f-4e74-9d17-648d25c7778f
+
+df <- read.csv('http://www.berlin.de/sen/finanzen/dokumentendownload/haushalt/haushaltsplan-/haushaltsplan-2018-2019/20180125_dhh18_19.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+No contact information provided.
