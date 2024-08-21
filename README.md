@@ -1,25 +1,19 @@
 # Preconfigured starter code files for all CSV datasets of Berlin Open Data
 
-### Open any tabular dataset of Berlin Open Data with one click and get a fully configured Python Jupyter Notebook or R Markdown file. 
+### Open any tabular dataset of **Berlin Open Data** with one click and **get a fully configured Python Jupyter Notebook or R Markdown file**.
 
-### Please go to this 👉 **[overview website]({{ GITHUB_PAGE }}) with the full list of datasets and links to all code files**. 
-
-This repository provides currently 2 x 338 code files (1 x R, 1 x Python) for all data sets (*«packages»*) that are available on [Berlin Open Data](https://daten.berlin.de/) and that contain one or several CSV distributions.
-
-- The code files are set with relevant metadata, descriptions, data links, and some starter code. 
-- The idea of this experiment is **that you immediately can start analyzing the data with R or Python.** 
+- The code files are **set with relevant metadata, descriptions, data links, and some starter code.**
+- The idea of this experiment is **that you immediately can start analyzing the data with R or Python.**
 - You can **open the Python notebooks with one click in Google Colab too.**
 
-⚠️ **Note**: 
-- **GitHub unfortunately doesn't render larger markdown files full length in the repo view.** The GitHub page aka «overview website» (link above) renders the list properly. 
-- Unfortunately you neither won't be able to view all 2.k+ files in the repo folders. Again GitHub truncates file lists longer than 1k files. Files beyond the limit are available but aren't listed. So either clone the repo or select individual files from the [overview website]({{ GITHUB_PAGE }}).
+⚠️ **Note**: To **download individual files from GitHub you need to switch to the file's `RAW` view and then `Right-Click-Save-As`.** Only so you get the proper file format rather than the HTML that GitHub yields.
 
+Feedback is always very welcome – simply open an issue.
 
-Feedback is always very welcome – simply open an issue! 🙌
+👉 Here is the link to the [repository](https://github.com/tifa365/starter-code_open_data_berlin) that contains currently 2 x 338 code files (1 x R, 1 x Python) for all data sets (_«packages»_) that are available on [Berlin Open Data](https://daten.berlin.de/) and that contain one or several CSV distributions. This website is build from this repo.
 
-<sub>Latest update: **2024-08-21 05:25:54**</sub><br>
+<sub>Latest update: **2024-08-21 05:55:51**</sub><br>
 <sub>For all data licenses please refer to each data set's link (provided in list as well as in the notebooks).</sub>
-
 | ID | Title (abbreviated to 200 chars) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |
 | e7b4e3f5-3c8e-417a-9396-387373020ff2 | [Adressen Kindertagespflegestellen Steglitz-Zehlendorf](https://daten.berlin.de/datensaetze/e7b4e3f5-3c8e-417a-9396-387373020ff2) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tifa365/starter-code_open_data_berlin/blob/main/notebooks/02_python/e7b4e3f5-3c8e-417a-9396-387373020ff2.ipynb) | [Python GitHub](https://github.com/tifa365/starter-code_open_data_berlin/blob/main/notebooks/02_python/e7b4e3f5-3c8e-417a-9396-387373020ff2.ipynb) | [R GitHub](https://github.com/tifa365/starter-code_open_data_berlin/blob/main/notebooks/01_r-markdown/e7b4e3f5-3c8e-417a-9396-387373020ff2.Rmd) |
