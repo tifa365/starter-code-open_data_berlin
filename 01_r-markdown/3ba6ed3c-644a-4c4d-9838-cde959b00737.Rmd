@@ -18,11 +18,11 @@ Auto generated R starter code for data set 3ba6ed3c-644a-4c4d-9838-cde959b00737.
 ## Metadata
 
 - **Maintainer** `Robert Budras-Krüger`
-- **Maintainer_email** `mdh@senuvk.berlin.de`
+- **Maintainer_email** `DPS@SenMVKU.Berlin.de`
 - **Tags** `['Geschwindigkeit', 'Lkw', 'Pkw', 'Sensor', 'Sensordaten', 'Straßendetektion', 'TEU', 'VIZ', 'Verkehrsdetektion', 'Verkehrsinformationszentrale', 'Verkehrsmenge', 'Verkehrsstärke']`
 - **Date_released** `2021-04-25`
 - **Metadata_created** `2021-04-13T15:23:14.942144`
-- **Metadata_modified** `2022-01-14T08:50:45.976280`
+- **Metadata_modified** `2024-08-23T07:44:30.414994`
 
 
 # Load packages
@@ -73,4 +73,4 @@ tail(df)
 
 # Contact
 
-Robert Budras-Krüger | mdh@senuvk.berlin.de
+Robert Budras-Krüger | DPS@SenMVKU.Berlin.de
