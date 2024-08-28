@@ -20,7 +20,7 @@ Auto generated R starter code for data set 195aace3-b217-440b-942f-01f5e093e714.
 - **Tags** `['altersgruppen', 'covid-19_erkrankungen', 'lageso', 'simplesearch']`
 - **Date_released** `2020-04-05`
 - **Metadata_created** `2021-05-31T10:25:52.936303`
-- **Metadata_modified** `2024-08-20T08:47:41.209620`
+- **Metadata_modified** `2024-08-27T13:00:23.328792`
 
 
 # Load packages

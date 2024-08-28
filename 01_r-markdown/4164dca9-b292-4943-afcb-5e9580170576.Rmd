@@ -20,7 +20,7 @@ Auto generated R starter code for data set 4164dca9-b292-4943-afcb-5e9580170576.
 - **Tags** `['bezirk', 'covid-19_erkrankungen', 'genesene_personen', 'inzidenz', 'lageso', 'simplesearch']`
 - **Date_released** `2020-04-05`
 - **Metadata_created** `2021-04-20T12:25:32.720617`
-- **Metadata_modified** `2024-08-20T08:45:14.447499`
+- **Metadata_modified** `2024-08-27T12:58:33.236029`
 
 
 # Load packages
