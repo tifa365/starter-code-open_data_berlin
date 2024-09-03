@@ -8,6 +8,8 @@ output: html_document
 
 Endgültiges Ergebnis der Teilwiederholungswahl für die Wahl des Deutschen Bundestag 2024; Hauptwahl am 26.09.2021; Erst- und Zweitstimmen
 
+Aktualisierung 02.09.2024: Herausnahme personenbezogener Daten zu den Wahlbewerberinnen und Wahlbewerbern aus Gründen des Datenschutzes gemäß § 86 Absatz 3 Bundeswahlordnung.
+
 [Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=teilwiederholungswahl-bundestagswahl-2024-in-berlin-nach-wahlbezirken-endgueltiges-ergebnis)<br>
 [Direct link by Amt für Statistik Berlin-Brandenburg for dataset](https://www.statistik-berlin-brandenburg.de/)
 
@@ -20,7 +22,7 @@ Auto generated R starter code for data set 139ecf0c-d6db-47ea-ac63-75807200a1f3.
 - **Tags** `['2024', 'Berlin', 'Briefwähler', 'Bundestagswahl', 'Bundestagswahlkreise', 'Stimmbezirke', 'Urnenwähler', 'Wahlberechtigte', 'Wahlbezirke', 'Wähler']`
 - **Date_released** `2024-03-05`
 - **Metadata_created** `2024-03-05T12:53:55.363162`
-- **Metadata_modified** `2024-07-04T10:24:27.773023`
+- **Metadata_modified** `2024-09-02T08:38:21.444995`
 
 
 # Load packages
