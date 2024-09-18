@@ -23,7 +23,7 @@ Auto generated R starter code for data set 341c3f42-fe73-44f2-bcce-be2162b5f965.
 - **Tags** `['bezirksamt', 'hitzeschutz', 'hitzeschutzaktivitäten', 'kühle_räume', 'open_data', 'simplesearch']`
 - **Date_released** `2024-05-28`
 - **Metadata_created** `2024-07-08T15:01:57.975533`
-- **Metadata_modified** `2024-08-07T16:21:28.333397`
+- **Metadata_modified** `2024-09-17T11:27:09.856813`
 
 
 # Load packages
