@@ -20,7 +20,7 @@ Auto generated R starter code for data set 4bd75f18-20bf-45e9-af17-3bf03ab6dc58.
 - **Tags** `['badegewässer', 'baden', 'badeseen', 'simplesearch']`
 - **Date_released** `2015-07-22`
 - **Metadata_created** `2016-02-18T21:31:58.515425`
-- **Metadata_modified** `2024-09-17T17:29:14.368404`
+- **Metadata_modified** `2024-09-19T08:42:40.458627`
 
 
 # Load packages
