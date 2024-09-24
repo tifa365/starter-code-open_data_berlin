@@ -23,7 +23,7 @@ Auto generated R starter code for data set 54fbf3d0-7291-4429-9e35-2e7522f8a4b2.
 - **Tags** `['Bandbreite', 'Breitband', 'Breitbandausbau', 'Digitalisierung', 'Glasfaser', 'Glasfaserausbau', 'NE 3', 'NE3', 'Netzebene 3School', 'Schule', 'bandwidth', 'broadband', 'broadband expansion', 'digitalization', 'fiber optic', 'fiber optic expansion', 'network level 3']`
 - **Date_released** `2024-08-26`
 - **Metadata_created** `2024-03-21T12:52:07.745080`
-- **Metadata_modified** `2024-08-26T12:24:50.185680`
+- **Metadata_modified** `2024-09-23T12:51:23.394886`
 
 
 # Load packages
