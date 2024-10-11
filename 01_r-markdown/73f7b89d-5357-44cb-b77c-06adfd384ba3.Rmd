@@ -1,0 +1,81 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Über- und außerplanmäßige Ausgaben und Verpflichtungsermächtigungen Berlin 2023
+
+Die Spalte „Bereich“ unterscheidet nach Berliner Landes- und Bezirksebene. Die Ziffer 30 steht für die Landesebene. Darunter fällt die Berliner Hauptverwaltung sowie die fünf weisungsfreien Verfassungsorgane (Abgeordnetenhaus, Verfassungsgerichtshof, Rechnungshof, Beauftragte/Beauftragter für Datenschutz und Informationsfreiheit, Bürger- und Polizeibeauftragte/Bürger- und Polizeibeauftragter des Landes Berlin). Die Ziffern 31 bis 42 umfassen die 12 Berliner Bezirksämter mit ihren Bezirksverwaltungen.
+Bei „Kapitel“ im Berliner Landeshaushalt handelt es sich um eine organisatorische Einheit, die Einnahmen, Ausgaben und Verpflichtungsermächtigungen für Aufgaben oder Organisationseinheiten umfasst.
+In der Spalte „Titel“ sind die Titelnummern spezifischen Positionen innerhalb eines Kapitels, die bestimmte Einnahmen, Ausgaben oder Verpflichtungsermächtigungen beschreiben. Sie ermöglichen eine genaue Zuordnung von Finanzmitteln zu bestimmten Zwecken und Projekten innerhalb eines Kapitels.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=ueber-und-ausserplanmaessige-ausgaben-und-verpflichtungsermaechtigungen-berlin-2023-1492926)<br>
+[Direct link by Datenrubrik for dataset]()
+
+Auto generated R starter code for data set 73f7b89d-5357-44cb-b77c-06adfd384ba3.
+
+## Metadata
+
+- **Maintainer** `Julia Schabos`
+- **Maintainer_email** `julia.schabos@senfin.berlin.de`
+- **Tags** `['Haushaltsplan', 'Landeshaushalt']`
+- **Date_released** `2024-10-01`
+- **Metadata_created** `2024-10-10T13:54:06.865140`
+- **Metadata_modified** `2024-10-10T13:56:39.646947`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 73f7b89d-5357-44cb-b77c-06adfd384ba3
+
+df <- read.csv('https://www.berlin.de/sen/finanzen/service/daten/241001_2023_u_a_ausgaben.csv')
+
+# Distribution 1
+# Package_id               : 73f7b89d-5357-44cb-b77c-06adfd384ba3
+
+df <- read.csv('https://www.berlin.de/sen/finanzen/service/daten/241001_schluesseltabelle_bereich_u_a_ausgaben.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Julia Schabos | julia.schabos@senfin.berlin.de
