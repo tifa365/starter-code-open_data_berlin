@@ -1,6 +1,6 @@
 ---
-title: "{{ DOCUMENT_TITLE }}"
-date: "{{ TODAY_DATE }}"
+title: "Open Data Berlin, Berlin Open Data"
+date: "2024-10-15"
 output: html_document
 ---
 
