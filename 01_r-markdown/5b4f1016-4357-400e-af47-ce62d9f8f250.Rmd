@@ -20,7 +20,7 @@ Auto generated R starter code for data set 5b4f1016-4357-400e-af47-ce62d9f8f250.
 - **Tags** `['covid-19_erkrankungen', 'fallzahlen', 'indikatoren', 'lageso', 'simplesearch']`
 - **Date_released** `2020-04-05`
 - **Metadata_created** `2021-05-31T10:26:30.566265`
-- **Metadata_modified** `2024-10-08T13:46:16.842204`
+- **Metadata_modified** `2024-10-14T16:04:02.102414`
 
 
 # Load packages

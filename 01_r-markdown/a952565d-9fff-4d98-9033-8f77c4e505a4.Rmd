@@ -1,0 +1,75 @@
+---
+title: "{{ DOCUMENT_TITLE }}"
+date: "{{ TODAY_DATE }}"
+output: html_document
+---
+
+## Dataset: Steuereinnahmen des Landes Berlin 2024
+
+Die Steuereinnahmen Berlins setzen sich zusammen aus den Landes- und Gemeindeanteilen der Gemeinschaftsteuern (z.B. Lohn- und Einkommensteuer, Umsatzsteuer, Körperschaftsteuer), den Landessteuern (z.B. Grunderwerbsteuer und Erbschaftsteuer) sowie den Gemeindesteuern (z.B. Grund- und Gewerbesteuern). 
+Die Daten werden monatlich veröffentlicht.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=steuereinnahmen-des-landes-berlin-2024-1493689)<br>
+[Direct link by Datenrubrik for dataset]()
+
+Auto generated R starter code for data set a952565d-9fff-4d98-9033-8f77c4e505a4.
+
+## Metadata
+
+- **Maintainer** `Julia Schabos`
+- **Maintainer_email** `julia.schabos@senfin.berlin.de`
+- **Tags** `[]`
+- **Date_released** `2024-10-14`
+- **Metadata_created** `2024-10-14T09:43:35.373532`
+- **Metadata_modified** `2024-10-14T09:44:57.816422`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : a952565d-9fff-4d98-9033-8f77c4e505a4
+
+df <- read.csv('https://www.berlin.de/sen/finanzen/service/daten/steuereinnahmen_09_2024.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Julia Schabos | julia.schabos@senfin.berlin.de
