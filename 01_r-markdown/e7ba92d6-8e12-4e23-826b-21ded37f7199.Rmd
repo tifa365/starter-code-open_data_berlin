@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2024-10-18"
+date: "2024-10-19"
 output: html_document
 ---
 
@@ -50,7 +50,7 @@ Auto generated R starter code for data set e7ba92d6-8e12-4e23-826b-21ded37f7199.
 - **Tags** `['bücherverbrennung', 'drittes_reich', 'index', 'nationalsozialismus', 'simplesearch', 'verbannte_bücher', 'verbotene_autoren', 'verbotene_bücher']`
 - **Date_released** `2016-05-11`
 - **Metadata_created** `2024-01-17T17:10:59.045936`
-- **Metadata_modified** `2024-08-08T09:37:17.864245`
+- **Metadata_modified** `2024-10-18T06:56:31.621804`
 
 
 # Load packages
