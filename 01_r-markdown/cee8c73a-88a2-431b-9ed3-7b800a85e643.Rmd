@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2024-10-24"
+date: "2024-10-25"
 output: html_document
 ---
 
 ## Dataset: Straßenbaumfällungen in Steglitz-Zehlendorf
 
-Eine Übersicht aller gefällten bzw. zu fällenden Bäume in Steglitz-Zehlendorf 2020-2022
+Eine Übersicht aller gefällten Bäume in Steglitz-Zehlendorf 2023
 
 [Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindebasteglitzzehle_ac744dfb0f27da6460b7f6bae42bde39_baeumebaumfaellungen)<br>
 [Direct link by SimpleSearch for dataset](https://www.berlin.de/ba-steglitz-zehlendorf/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/gruenflaechen/baeume/baumfaellungen/)
@@ -20,7 +20,7 @@ Auto generated R starter code for data set cee8c73a-88a2-431b-9ed3-7b800a85e643.
 - **Tags** `['bäume', 'fällungen', 'simplesearch']`
 - **Date_released** `2017-04-25`
 - **Metadata_created** `2020-01-16T13:45:53.527462`
-- **Metadata_modified** `2024-08-07T16:11:57.697330`
+- **Metadata_modified** `2024-10-24T09:38:12.733487`
 
 
 # Load packages
