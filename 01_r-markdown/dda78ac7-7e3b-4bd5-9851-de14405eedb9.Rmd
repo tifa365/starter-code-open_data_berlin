@@ -1,0 +1,74 @@
+---
+title: "Open Government Data, Berlin Open Data"
+date: "2024-10-31"
+output: html_document
+---
+
+## Dataset: Gender Datenreport Berlin 2021 - Lebensformen
+
+Daten zu Lebensformen mit einem genaueren Blick auf die Geschlechterverteilungen für das Jahr 2021 in Berlin. Es geht unter anderem um Privathaushalte und Familien mit und ohne Kinder.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=gender-datenreport-berlin-2021-lebensformen-1498440)<br>
+[Direct link by Datenrubrik for dataset](https://www.berlin.de/sen/frauen/gleichstellung/gender-daten/gender-datenreport-berlin/demografie/)
+
+Auto generated R starter code for data set dda78ac7-7e3b-4bd5-9851-de14405eedb9.
+
+## Metadata
+
+- **Maintainer** `Clara Steinke`
+- **Maintainer_email** `Clara.Steinke@senasgiva.berlin.de`
+- **Tags** `['Amtliche Statistik', 'Berichte', 'Demografie', 'Frauen', 'Gleichstellung', 'Mutterschaft']`
+- **Date_released** `2024-10-29`
+- **Metadata_created** `2024-10-30T17:08:06.918774`
+- **Metadata_modified** `2024-10-30T17:10:01.375481`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : dda78ac7-7e3b-4bd5-9851-de14405eedb9
+
+df <- read.csv('https://www.berlin.de/sen/frauen/gleichstellung/gender-daten/daten/2021_1_2_lebensform_final.xlsx')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Clara Steinke | Clara.Steinke@senasgiva.berlin.de
