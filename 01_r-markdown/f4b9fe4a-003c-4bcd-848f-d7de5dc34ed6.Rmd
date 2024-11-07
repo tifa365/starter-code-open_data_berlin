@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2024-11-06"
+date: "2024-11-07"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set f4b9fe4a-003c-4bcd-848f-d7de5dc34ed6.
 - **Tags** `['ba-beschluss', 'ba-beschlüsse', 'simplesearch']`
 - **Date_released** `2014-06-23`
 - **Metadata_created** `2016-02-18T20:50:29.705325`
-- **Metadata_modified** `2024-08-07T16:20:17.654320`
+- **Metadata_modified** `2024-11-06T10:21:28.872135`
 
 
 # Load packages
