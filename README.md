@@ -12,7 +12,7 @@ Feedback is always very welcome – simply open an issue.
 
 👉 Here is the link to the source [repository](https://github.com/tifa365/starter-code-open_data_berlin). This website is built from this repo.
 
-<sub>Latest update: **2024-11-12 03:38:27**</sub>
+<sub>Latest update: **2024-11-13 03:39:17**</sub>
 
 **Das Berliner Open-Data-Handbuch**
 
