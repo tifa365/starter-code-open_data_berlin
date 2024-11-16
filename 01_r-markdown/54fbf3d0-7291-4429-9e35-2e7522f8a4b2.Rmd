@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2024-11-15"
+date: "2024-11-16"
 output: html_document
 ---
 
@@ -21,9 +21,9 @@ Auto generated R starter code for data set 54fbf3d0-7291-4429-9e35-2e7522f8a4b2.
 - **Maintainer** `Karen König`
 - **Maintainer_email** `open-data@senbjf.berlin.de`
 - **Tags** `['Bandbreite', 'Breitband', 'Breitbandausbau', 'Digitalisierung', 'Glasfaser', 'Glasfaserausbau', 'NE 3', 'NE3', 'Netzebene 3School', 'Schule', 'bandwidth', 'broadband', 'broadband expansion', 'digitalization', 'fiber optic', 'fiber optic expansion', 'network level 3']`
-- **Date_released** `2024-08-26`
+- **Date_released** `2024-10-31`
 - **Metadata_created** `2024-03-21T12:52:07.745080`
-- **Metadata_modified** `2024-09-23T12:51:23.394886`
+- **Metadata_modified** `2024-11-15T10:56:17.038559`
 
 
 # Load packages
