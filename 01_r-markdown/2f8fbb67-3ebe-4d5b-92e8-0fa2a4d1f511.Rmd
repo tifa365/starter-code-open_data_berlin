@@ -1,0 +1,74 @@
+---
+title: "Open Government Data, Berlin Open Data"
+date: "2024-12-09"
+output: html_document
+---
+
+## Dataset: Einsätze der Berliner Feuerwehr
+
+Ein Datensatz über das Einsatzgeschehen der Berliner Feuerwehr. Es gibt eine Zeile pro Einsatz. Die Felder enthalten Informationen über Prozesszeiten, Einsatzstichwort sowie beteiligte Einsatzmittel.
+
+[Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=einsatze-der-berliner-feuerwehr)<br>
+[Direct link by Berliner Feuerwehr for dataset](https://github.com/Berliner-Feuerwehr/BF-Open-Data)
+
+Auto generated R starter code for data set 2f8fbb67-3ebe-4d5b-92e8-0fa2a4d1f511.
+
+## Metadata
+
+- **Maintainer** `Dr. Marco Manni `
+- **Maintainer_email** `marco.manni@berliner-feuerwehr.de`
+- **Tags** `['112', 'Berliner  Bezirke', 'Berliner Feuerwehr', 'Brand', 'Dispatchcode', 'Feuer', 'Notarzt', 'Notfall', 'Rettung', 'Rettungsdienst', 'SNAP']`
+- **Date_released** `2024-12-03`
+- **Metadata_created** `2024-11-04T16:38:17.657546`
+- **Metadata_modified** `2024-12-03T15:54:42.836882`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Package_id               : 2f8fbb67-3ebe-4d5b-92e8-0fa2a4d1f511
+
+df <- read.csv('https://github.com/Berliner-Feuerwehr/BF-Open-Data/tree/main/Datasets/Mission_Data')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Contact
+
+Dr. Marco Manni  | marco.manni@berliner-feuerwehr.de

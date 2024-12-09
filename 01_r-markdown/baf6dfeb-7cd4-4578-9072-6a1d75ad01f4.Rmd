@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2024-11-17"
+date: "2024-12-09"
 output: html_document
 ---
 
@@ -11,7 +11,7 @@ Zugriffsstatistik des Berliner Datenportals (daten.berlin.de). Enthalten sind di
 **Die in diesem Datensatz enthaltenen Daten sind historische Daten, die durch die Software _BerlinOnline Site Statistics_ (BOSS) erstellt wurden. Die Daten decken den Zeitraum von 2011-09-01 – 2019-12-31 ab. Seit Januar 2020 ist BOSS nicht mehr in Betrieb, und wurde durch Webtrekk Analytics ersetzt. Die aktuellen, durch _Webtrekk Analytics_ erzeugten Daten sind über den Datensatz [Zugriffsstatistik daten.berlin.de](https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde) verfügbar.**
 
 [Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=zugriffsstatistik-daten-berlin-de-historisch)<br>
-[Direct link by BerlinOnline Stadtportal GmbH for dataset](https://berlinonline.github.io/berlin_dataportal_usage/)
+[Direct link by BerlinOnline GmbH for dataset](https://berlinonline.github.io/berlin_dataportal_usage/)
 
 Auto generated R starter code for data set baf6dfeb-7cd4-4578-9072-6a1d75ad01f4.
 

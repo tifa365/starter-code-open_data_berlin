@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2024-11-17"
+date: "2024-12-09"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set 6a2acf9e-e911-4d78-b571-c75091d07086.
 - **Tags** `['simplesearch', 'strassenfeste', 'straßenfeste', 'volksfeste']`
 - **Date_released** `2014-04-15`
 - **Metadata_created** `2017-10-19T11:48:47.441052`
-- **Metadata_modified** `2024-10-14T09:03:48.934838`
+- **Metadata_modified** `2024-12-05T11:44:30.297007`
 
 
 # Load packages

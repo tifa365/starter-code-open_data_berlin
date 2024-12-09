@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2024-11-17"
+date: "2024-12-09"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set 76919e2d-eb5a-451f-a96b-d677181d5a77.
 - **Tags** `['berufsschule', 'oberstufenzentrum', 'osz', 'simplesearch']`
 - **Date_released** `2023-12-04`
 - **Metadata_created** `2024-02-01T14:28:30.223448`
-- **Metadata_modified** `2024-08-07T18:39:47.507822`
+- **Metadata_modified** `2024-11-19T15:07:35.963823`
 
 
 # Load packages

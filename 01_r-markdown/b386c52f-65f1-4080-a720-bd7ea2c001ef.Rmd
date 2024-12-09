@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2024-11-17"
+date: "2024-12-09"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set b386c52f-65f1-4080-a720-bd7ea2c001ef.
 - **Tags** `['covid-19_erkrankungen', 'fallzahlen', 'indikatoren', 'lageso', 'simplesearch']`
 - **Date_released** `2020-04-05`
 - **Metadata_created** `2021-05-31T10:26:11.331826`
-- **Metadata_modified** `2024-11-12T08:17:43.616334`
+- **Metadata_modified** `2024-12-03T08:30:04.213443`
 
 
 # Load packages

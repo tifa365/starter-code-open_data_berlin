@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2024-11-17"
+date: "2024-12-09"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set 23f72b21-d8e0-460a-b043-1b34db40d27f.
 - **Tags** `['antikmärkte', 'simplesearch', 'trödelmärkte', 'wochenmärkte']`
 - **Date_released** `2014-04-15`
 - **Metadata_created** `2017-10-24T09:23:24.669824`
-- **Metadata_modified** `2024-11-06T14:11:27.884246`
+- **Metadata_modified** `2024-12-05T11:43:06.455923`
 
 
 # Load packages

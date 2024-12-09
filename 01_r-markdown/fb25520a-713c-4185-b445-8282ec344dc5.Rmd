@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2024-11-17"
+date: "2024-12-09"
 output: html_document
 ---
 
@@ -11,7 +11,7 @@ Welche Datensätze wurden im Berliner Portal für Offene Daten daten.berlin.de i
 Alle Daten und Code gibt es auch [auf Github](https://github.com/berlinonline/berlin-open-data-stats-2018).
 
 [Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=datenportal-jahresruckblick-2018)<br>
-[Direct link by BerlinOnline Stadtportal GmbH for dataset](https://daten.berlin.de/interaktion/artikel/jahresrueckblick-2018)
+[Direct link by BerlinOnline GmbH for dataset](https://daten.berlin.de/interaktion/artikel/jahresrueckblick-2018)
 
 Auto generated R starter code for data set fb25520a-713c-4185-b445-8282ec344dc5.
 
