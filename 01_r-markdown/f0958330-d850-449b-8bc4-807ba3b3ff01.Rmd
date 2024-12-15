@@ -1,12 +1,12 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2024-12-09"
+date: "2024-12-15"
 output: html_document
 ---
 
 ## Dataset: Stadtteile in Zahlen - Charlottenburg-Wilmersdorf
 
-Sozio-Demografische Daten und BZRP-Kernindikatoren aus dem Abgestimmten Datenpool des Amts für Statistik Berlin-Brandenburg und von der Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen mit Stand (31.12.)2022, aufgeschlüsselt nach Lebensweltlich Orientierten Räumen (BZR und PLR) im Bezirk Charlottenburg-Wilmersdorf.
+Sozio-Demografische Daten und BZRP-Kernindikatoren aus dem Abgestimmten Datenpool des Amts für Statistik Berlin-Brandenburg und von der Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen mit Stand (31.12.)2023 (sofern nicht anders angegeben), aufgeschlüsselt nach Lebensweltlich Orientierten Räumen (BZR und PLR) im Bezirk Charlottenburg-Wilmersdorf.
 
 [Direct link by Berlin Open Data for dataset](https://datenregister.berlin.de/api/3/action/package_show?id=simple_search_wwwberlindebacharlottenbur_9705bd76c3962690bc4831f08aa967cf_enstadtteileinzahlen)<br>
 [Direct link by SimpleSearch for dataset](https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/service-und-organisationseinheiten/sozialraumorientierte-planungskoordination/region/zahlen-und-fakten/stadtteile-in-zahlen/)
@@ -20,7 +20,7 @@ Auto generated R starter code for data set f0958330-d850-449b-8bc4-807ba3b3ff01.
 - **Tags** `['bevölkerung', 'bezirksregionen', 'bezirksregionenprofil', 'charlottenburg-wilmersdorf', 'demographie', 'einwohner', 'einwohnerinnnen', 'kurzprofil', 'lor', 'planungsräume', 'sgb', 'simplesearch', 'soziale_infrastruktur', 'soziale_situation', 'transferleistungen', 'wohndauer']`
 - **Date_released** `2022-01-19`
 - **Metadata_created** `2022-07-29T16:34:39.298180`
-- **Metadata_modified** `2024-08-07T15:43:39.297023`
+- **Metadata_modified** `2024-12-12T15:47:42.870127`
 
 
 # Load packages
