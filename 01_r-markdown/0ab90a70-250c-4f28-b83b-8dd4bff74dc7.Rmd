@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2024-12-15"
+date: "2024-12-22"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set 0ab90a70-250c-4f28-b83b-8dd4bff74dc7.
 - **Tags** `['Abwasser', 'Analytik', 'BEWAC - Berliner Wastewater Cluster', 'BWB', 'Berliner Wasserbetriebe', 'Influenza', 'Klärwerk Ruhleben', 'Klärwerk Schönerlinde', 'Klärwerk Waßmannsdorf', 'LAGeSo Berlin', 'Surveillance', 'Viruslast']`
 - **Date_released** `2024-12-10`
 - **Metadata_created** `2024-11-07T15:26:09.744937`
-- **Metadata_modified** `2024-12-11T08:08:12.816985`
+- **Metadata_modified** `2024-12-18T10:16:19.675910`
 
 
 # Load packages
