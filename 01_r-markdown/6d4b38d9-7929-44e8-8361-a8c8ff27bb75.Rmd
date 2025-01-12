@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2025-01-05"
+date: "2025-01-12"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set 6d4b38d9-7929-44e8-8361-a8c8ff27bb75.
 - **Tags** `['eu-verordnungen', 'eu-öko-kontrollen', 'simplesearch', 'überwachung']`
 - **Date_released** `2015-07-22`
 - **Metadata_created** `2024-11-06T16:17:02.370596`
-- **Metadata_modified** `2024-11-06T16:36:59.158239`
+- **Metadata_modified** `2025-01-08T14:58:50.156801`
 
 
 # Load packages
