@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2025-01-12"
+date: "2025-01-19"
 output: html_document
 ---
 
@@ -15,12 +15,12 @@ Auto generated R starter code for data set a96fed5d-6890-49ef-baf5-1504a058fbc9.
 
 ## Metadata
 
-- **Maintainer** `Melanie Högel`
-- **Maintainer_email** `melanie.hoegel@ba-mitte.berlin.de`
+- **Maintainer** `Svea Gille`
+- **Maintainer_email** `svea.gille@ba-mitte.berlin.de`
 - **Tags** `['simplesearch']`
 - **Date_released** `2020-05-04`
 - **Metadata_created** `2020-05-28T05:00:56.816627`
-- **Metadata_modified** `2024-09-23T11:27:26.453652`
+- **Metadata_modified** `2025-01-16T08:48:48.400228`
 
 
 # Load packages
@@ -71,4 +71,4 @@ tail(df)
 
 # Contact
 
-Melanie Högel | melanie.hoegel@ba-mitte.berlin.de
+Svea Gille | svea.gille@ba-mitte.berlin.de
