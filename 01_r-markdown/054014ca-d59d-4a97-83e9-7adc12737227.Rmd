@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2025-01-19"
+date: "2025-01-26"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set 054014ca-d59d-4a97-83e9-7adc12737227.
 - **Tags** `['Haushaltsplan', 'Landeshaushalt']`
 - **Date_released** `2024-02-19`
 - **Metadata_created** `2024-02-20T13:08:10.465140`
-- **Metadata_modified** `2024-03-15T11:02:52.294294`
+- **Metadata_modified** `2025-01-22T05:17:07.036025`
 
 
 # Load packages

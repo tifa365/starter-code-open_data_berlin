@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2025-01-19"
+date: "2025-01-26"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set a8c3eb74-bb32-40c1-9b49-fa860ab010ac.
 - **Tags** `['Alleinerziehende', 'Arbeitslosigkeit', 'Armut', 'Behandlungsfälle', 'Einkommen', 'Erwerbsleben', 'Erwerbsstatus', 'Gesundheit', 'Gesundheitsberichterstattung', 'Grundsicherung', 'Index', 'Kiez', 'Lebenserwartung', 'Lebensweltlich orientierte Räume', 'Morbidität', 'Mortalität', 'Planung', 'Regionalvergleich', 'Soziales', 'Sozialraum', 'Sozialstruktur', 'Trend', 'Ungleichheit', 'beruflicher Ausbildungsabschluss', 'soziale Lage']`
 - **Date_released** `2022-03-29`
 - **Metadata_created** `2022-03-29T11:49:14.156186`
-- **Metadata_modified** `2023-12-28T11:32:43.905715`
+- **Metadata_modified** `2025-01-21T23:42:45.189765`
 
 
 # Load packages

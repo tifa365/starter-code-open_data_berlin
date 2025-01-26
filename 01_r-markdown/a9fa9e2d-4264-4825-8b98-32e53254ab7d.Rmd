@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2025-01-19"
+date: "2025-01-26"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set a9fa9e2d-4264-4825-8b98-32e53254ab7d.
 - **Tags** `['Alter', 'Bildungsurlaub', 'Bildungszeit', 'Ehrenamt', 'Geschlecht', 'Qualifikation', 'Teilnehmer', 'Träger', 'Veranstaltungen', 'Weiterbildung', 'berufliche Bildung', 'berufliche Weiterbildung', 'politische Bildung']`
 - **Date_released** `2022-06-09`
 - **Metadata_created** `2022-06-09T11:36:48.091071`
-- **Metadata_modified** `2022-07-04T12:39:55.961156`
+- **Metadata_modified** `2025-01-22T00:26:44.291150`
 
 
 # Load packages

@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2025-01-19"
+date: "2025-01-26"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set 89c6b31f-cbe2-4b1e-85e9-e9d0da3c853c.
 - **Tags** `['Beiteiligungen', 'Beteiligungsunternehmen']`
 - **Date_released** `2021-06-30`
 - **Metadata_created** `2021-12-10T15:27:01.739575`
-- **Metadata_modified** `2021-12-10T15:32:36.268498`
+- **Metadata_modified** `2025-01-21T22:17:49.547443`
 
 
 # Load packages

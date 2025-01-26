@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2025-01-19"
+date: "2025-01-26"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set a16031ce-d084-4bb9-9760-5d3accdec648.
 - **Tags** `['Fachwerker im Gartenbau', 'Fischwirt', 'Forstwirt', 'Gärtner', 'Imker', 'Milchtechnologe', 'Milchwirtschaftlicher Laborant', 'Pferdewirt', 'Schäfer', 'Tierwirt']`
 - **Date_released** `2022-07-21`
 - **Metadata_created** `2022-07-21T09:00:12.521031`
-- **Metadata_modified** `2022-07-21T09:01:59.802543`
+- **Metadata_modified** `2025-01-22T00:51:34.094575`
 
 
 # Load packages
