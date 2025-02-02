@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2025-01-26"
+date: "2025-02-02"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set 137c815a-5ec2-4376-8d35-0009ab63232f.
 - **Tags** `['heimaufsicht', 'heime', 'mindestanforderungen', 'simplesearch']`
 - **Date_released** `2014-11-20`
 - **Metadata_created** `2016-02-18T21:28:35.509812`
-- **Metadata_modified** `2025-01-21T08:29:26.675283`
+- **Metadata_modified** `2025-01-29T08:29:35.045969`
 
 
 # Load packages

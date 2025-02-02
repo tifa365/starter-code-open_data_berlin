@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2025-01-26"
+date: "2025-02-02"
 output: html_document
 ---
 
@@ -21,7 +21,7 @@ Auto generated R starter code for data set e883fc65-2567-4127-b0c7-188a4720071c.
 - **Tags** `['39. BImSchV', 'Benzol', 'CO', 'Feinstaub', 'Grenzwertüberschreitung', 'Jahreswerte', 'Kohlenmonoxid', 'Luft', 'Luftgüte', 'Luftgütemesscontainer', 'Luftmessstation', 'Luftqualität', 'Luftschadstoffe', 'Monatswerte', 'NO', 'NO2', 'NOx', 'O3', 'Ozon', 'Partikel PM10', 'Partikel PM2.5', 'SO2', 'Schwefeldioxid', 'Stickoxide', 'Stickstoffdioxid', 'Stickstoffmonoxid', 'Stundenwerte', 'Tageswerte', 'Toluol', 'anorganische Gase', 'aromatische Kohlenwasserstoffe']`
 - **Date_released** `2022-05-23`
 - **Metadata_created** `2022-05-09T07:20:10.067529`
-- **Metadata_modified** `2022-06-08T06:32:28.185937`
+- **Metadata_modified** `2025-01-30T13:32:28.708291`
 
 
 # Load packages
@@ -73,12 +73,12 @@ df <- read.csv('https://luftdaten.berlin.de/pollution/o3?stationgroup=all&period
 # Distribution 6
 # Package_id               : e883fc65-2567-4127-b0c7-188a4720071c
 
-df <- read.csv('https://luftdaten.berlin.de/pollution/chb?stationgroup=all&period=1h&timespan=lastweek')
+df <- read.csv('https://luftdaten.berlin.de/pollution/chb?stationgroup=all&period=1m&timespan=all')
 
 # Distribution 7
 # Package_id               : e883fc65-2567-4127-b0c7-188a4720071c
 
-df <- read.csv('https://luftdaten.berlin.de/pollution/cht?stationgroup=all&period=1h&timespan=lastweek')
+df <- read.csv('https://luftdaten.berlin.de/pollution/cht?stationgroup=all&period=1m&timespan=all')
 
 # Distribution 8
 # Package_id               : e883fc65-2567-4127-b0c7-188a4720071c

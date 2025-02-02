@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, Berlin Open Data"
-date: "2025-01-26"
+date: "2025-02-02"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ Auto generated R starter code for data set f0958330-d850-449b-8bc4-807ba3b3ff01.
 - **Tags** `['bevölkerung', 'bezirksregionen', 'bezirksregionenprofil', 'charlottenburg-wilmersdorf', 'demographie', 'einwohner', 'einwohnerinnnen', 'kurzprofil', 'lor', 'planungsräume', 'sgb', 'simplesearch', 'soziale_infrastruktur', 'soziale_situation', 'transferleistungen', 'wohndauer']`
 - **Date_released** `2022-01-19`
 - **Metadata_created** `2022-07-29T16:34:39.298180`
-- **Metadata_modified** `2024-12-12T15:47:42.870127`
+- **Metadata_modified** `2025-01-27T10:46:29.145395`
 
 
 # Load packages
